@@ -884,6 +884,9 @@ nav > .menu-items2 > a {
   font-size: 17vw;
   text-decoration: none;
 }
+.urur {
+ display: none;
+}
 .zoformitt2 {
   position: absolute;
   top: 570vw;

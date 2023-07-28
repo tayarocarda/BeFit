@@ -2140,11 +2140,14 @@ input:focus {
   display: none;
 }
 .sportik3 {
+  display: none;
+}
+.urur {
   position: relative;
-  top: 2.05vw;
-  left: 10vw;
-  width: 51vw;
-  height: 38vw;
+  top: 3vw;
+  left: 25vw;
+  width: 37vw;
+  height: 37vw;
 }
 .sportikstretch {
   position: relative;
