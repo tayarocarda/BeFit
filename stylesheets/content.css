@@ -1,0 +1,2899 @@
+@media all and (min-width: 550px) {
+body {
+  background: #000000;
+}
+.none {
+  display: none;
+}
+.menu {
+  display: none;
+}
+nav > .menu-items {
+   width: 90vw;
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 4vw;
+   z-index: 1;
+}
+nav > .menu-items > a {
+    margin-top: 3vw;
+    line-height: 2vw;
+    color: #fff;
+    font-family: "Suisse Int'l";
+    font-style: normal;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+nav > .menu-items > a:hover {
+    color: #8CF104;
+}
+nav > .menu-items > a:nth-child(1) {
+    line-height: 2vw;
+    width: 15.5vw;
+    height: 3.5vw;
+    color: #8CF104;
+    font-family: "DrukCyrMedium";
+    font-size: 3vw;
+    text-decoration: none;
+}
+.containerun {
+  position: absolute;
+  width: 100vw;
+  height: 6vw;
+  background: #fff;;
+  margin-top: -114vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.containerun2 {
+  position: absolute;
+  width: 100vw;
+  height: 6vw;
+  background: #8CF104;
+  margin-top: 476.5vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.containerun3 {
+  position: absolute;
+  width: 100vw;
+  height: 6vw;
+  background: #fff;
+  margin-top: 487vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.rowun {
+  font-family: "DrukCyrMedium";
+  font-size: 3.5vw;
+  margin-top: 1vw;
+  white-space: nowrap;
+  color: #000;
+  width: 100vw;
+  height: 4vw;
+  box-sizing: border-box;
+  animation: row 5s linear infinite;
+}
+@keyframes row {
+  0% {margin-left: 1%;}
+  100% {margin-left: 100%;}
+}
+.rowun2 {
+  font-family: "DrukCyrMedium";
+  font-size: 3.5vw;
+  margin-top: 1vw;
+  white-space: nowrap;
+  color: #000;
+  width: 100vw;
+  height: 4vw;
+  box-sizing: border-box;
+  animation: row2 5s linear infinite;
+}
+@keyframes row2 {
+  0% {margin-left: 100%;}
+  100% {margin-left: 1%;}
+}
+.liner {
+  position: relative;
+  margin-top: -25vw;
+  width: 100vw;
+  height: 100vw;
+}
+.girl {
+  position: relative;
+  transform: scale(0.9);
+  top: -88vw;
+  width: 100vw;
+  animation: logogo 3s linear infinite;
+}
+@keyframes logogo {
+ 0% {top: -88vw;;}
+ 50% {top: -83vw;}
+ 100% {top: -88vw;}
+}
+.slogan {
+  position: relative;
+  top: -142vw;
+  left: 4vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 10vw;
+  text-decoration: none;
+  white-space: nowrap;
+  animation: shift 3s linear infinite;
+}
+.slogan:hover {
+  animation-play-state: paused;
+  transition: all .5s ease-out;
+ }
+@keyframes shift {
+ 0% {left: 4vw;;}
+ 50% {left: 14vw;}
+ 100% {left: 4vw;}
+}
+.slogan2 {
+  position: relative;
+  top: -109vw;
+  left: 55vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 10vw;
+  text-decoration: none;
+  white-space: nowrap;
+  animation: shift2 3s linear infinite;
+}
+.slogan2:hover {
+  animation-play-state: paused;
+  transition: all .5s ease-out;
+}
+@keyframes shift2 {
+  0% {left: 55vw;;}
+  50% {left: 45vw;}
+  100% {left: 55vw;}
+}
+#why {
+  position: relative;
+  top: -103vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#variants {
+  position: relative;
+  top: -103vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tabatatextik {
+  position: relative;
+  top: -4.5vw;
+  left: 16vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.askme {
+  position: relative;
+  top: 4.5vw;
+  left: 5vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "DrukCyrMedium";
+  font-size: 5vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#timetable {
+  position: relative;
+  top: 85vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#abonement {
+  position: relative;
+  top: 107vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.questions {
+  position: relative;
+  top: 150vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#contacts {
+  position: relative;
+  top: 462vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#feedback {
+  position: relative;
+  top: 123vw;
+  left: 7vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 8vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.button {
+  position: relative;
+  top: -111.5vw;
+  left: 6vw;
+  width: 30vw;
+  height: 6vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.buttontab {
+  position: relative;
+  top: 9.5vw;
+  left: 5.5vw;
+  width: 30vw;
+  height: 6vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbut {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 23vw;
+  height: 5.5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbutt {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 22vw;
+  height: 5.5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbuttc {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 22vw;
+  height: 5.5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbutt4 {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 22vw;
+  height: 5.5vw;
+  background: #fff;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbutt4k {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 22vw;
+  height: 5.5vw;
+  background: #fff;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbutt4m {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 22vw;
+  height: 5.5vw;
+  background: #fff;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.oformbut2 {
+  position: relative;
+  top: 5vw;
+  left: 44vw;
+  width: 23vw;
+  height: 5.5vw;
+  background: #fff;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+.clickme {
+  cursor: pointer;
+}
+.button:hover {
+  background: #fff;
+  transition: all .5s ease-out;
+}
+.try {
+  position: relative;
+  top: -115.4vw;
+  left: 10.8vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.trytab {
+  position: relative;
+  top: 2vw;
+  left: 3.5vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.oformit {
+  position: relative;
+  top: 1.3vw;
+  left: 48vw;
+  width: 23vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.oformitt {
+  position: relative;
+  top: 1.4vw;
+  left: 48vw;
+  width: 23vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.oformitts {
+  position: relative;
+  top: 1.4vw;
+  left: 49.5vw;
+  width: 23vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.oformitt2 {
+  position: relative;
+  top: 1.3vw;
+  left: 50vw;
+  width: 23vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.zoformitt2 {
+  position: relative;
+  top: 1.3vw;
+  left: 51vw;
+  width: 23vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.oformitt3 {
+  position: relative;
+  top: 1.3vw;
+  left: 48.5vw;
+  width: 23vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.katush {
+  position: absolute;
+  top: 3vw;
+  left: 5.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+}
+.depo {
+  position: absolute;
+  top: 3vw;
+  left: 33vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+}
+.askop {
+  position: relative;
+  top: 8vw;
+  left: 5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.circle {
+  position: relative;
+  top: -119.7vw;
+  left: 29vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #fff;
+  border-radius: 10vw;
+}
+.circletab {
+  position: relative;
+  top: -2.3vw;
+  left: 22.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #fff;
+  border-radius: 10vw;
+}
+.circletabata {
+  position: relative;
+  top: 5.3vw;
+  left: 7vw;
+  width: 7vw;
+  height: 7vw;
+  background: #fff;
+  border-radius: 10vw;
+}
+.circletabata:hover {
+  background: #8CF104;
+  transition: all .5s ease-out ;
+}
+.circleform {
+  position: relative;
+  top: -3vw;
+  left: 59.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #fff;
+  border-radius: 10vw;
+}
+.circleform2 {
+  position: relative;
+  top: -3vw;
+  left: 59.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #8CF104;
+  border-radius: 10vw;
+}
+.circleform2t {
+  position: relative;
+  top: -3vw;
+  left: 59vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #fff;
+  border-radius: 10vw;
+}
+.circleform2t4 {
+  position: relative;
+  top: -3vw;
+  left: 59vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #8CF104;
+  border-radius: 10vw;
+}
+.circleform2t4s {
+  position: relative;
+  top: -3vw;
+  left: 58vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #8CF104;
+  border-radius: 10vw;
+}
+.circleform2t2 {
+  position: relative;
+  top: -3vw;
+  left: 58vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #fff;
+  border-radius: 10vw;
+}
+.circleform2t24 {
+  position: relative;
+  top: -3vw;
+  left: 58vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #8CF104;
+  border-radius: 10vw;
+}
+.zcircleform2t24 {
+  position: relative;
+  top: -3vw;
+  left: 57.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #8CF104;
+  border-radius: 10vw;
+}
+.circle2 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #fff;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle2:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out ;
+}
+.circle3 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #8CF104;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle3:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circle4 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #fff;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle4:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circle5 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #8CF104;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle5:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circle6 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #fff;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle6:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circle7 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #8CF104;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle7:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circle8 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #fff;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle8:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circle9 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #8CF104;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle9:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.circleclick {
+  position: absolute;
+  top: 473.7vw;
+  left: 75vw;
+  width: 7.5vw;
+  height: 7.5vw;
+  background-color: #fff;
+  border-radius: 10vw;
+  cursor: pointer;
+}
+.circleclick:hover {
+  background-color: #8CF104;
+  transition: all .5s ease-out;
+}
+.arrowclick {
+  position: absolute;
+  top: 475.8vw;
+  left: 75.8vw;
+  width: 6vw;
+  height: 3vw;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.circleclick2 {
+  position: absolute;
+  top: 473.7vw;
+  left: 85vw;
+  width: 7.5vw;
+  height: 7.5vw;
+  background-color: #fff;
+  border-radius: 10vw;
+  cursor: pointer;
+}
+.circleclick2:hover {
+  background-color: #8CF104;
+  transition: all .5s ease-out;
+}
+.arrowclick2 {
+  position: absolute;
+  top: 475.8vw;
+  left: 85.8vw;
+  width: 6vw;
+  height: 3vw;
+  cursor: pointer;
+}
+.circle10 {
+  position: absolute;
+  top: 19.6vw;
+  left: 3.5vw;
+  width: 6vw;
+  height: 6vw;
+  background: #fff;
+  border-radius: 10vw;
+  z-index: 1;
+}
+.circle10:hover {
+  top: 19.1vw;
+  left: 3vw;
+  width: 7vw;
+  height: 7vw;
+  transition: all .5s ease-out;
+}
+.arrow {
+  position: relative;
+  top: -122.5vw;
+  left: 29.7vw;
+  width: 2vw;
+  height: 2vw;
+}
+.arrowtab {
+  position: relative;
+  top: 0.5vw;
+  left: 8vw;
+  width: 5vw;
+  height: 3vw;
+  transform: rotate(180deg);
+}
+.arrowtaber {
+  position: relative;
+  top: -5vw;
+  left: 23.2vw;
+  width: 2vw;
+  height: 2vw;
+}
+.arrowform {
+  position: relative;
+  top: -5.7vw;
+  left: 60.2vw;
+  width: 2vw;
+  height: 2vw;
+}
+.arrowformtf {
+  position: relative;
+  top: -5.7vw;
+  left: 58.8vw;
+  width: 2vw;
+  height: 2vw;
+}
+.zarrowformtf {
+  position: relative;
+  top: -5.7vw;
+  left: 58.3vw;
+  width: 2vw;
+  height: 2vw;
+}
+.arrowformt {
+  position: relative;
+  top: -5.7vw;
+  left: 59.8vw;
+  width: 2vw;
+  height: 2vw;
+}
+.arrowformts {
+  position: relative;
+  top: -5.7vw;
+  left: 58.8vw;
+  width: 2vw;
+  height: 2vw;
+}
+.wanttoo {
+  position: absolute;
+  top: 52vw;
+  left: -41vw;
+}
+.wanttoo2 {
+  position: absolute;
+  top: 53.5vw;
+  left: -41vw;
+}
+.wanttoo3 {
+  position: absolute;
+  top: 53.5vw;
+  left: -41vw;
+}
+.arrow2 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow3 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow4 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow5 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow6 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow7 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow8 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow9 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.arrow10 {
+  position: absolute;
+  top: 21.6vw;
+  left: 4.5vw;
+  width: 4vw;
+  height: 2vw;
+  z-index: 1;
+}
+.podlogka {
+  position: relative;
+  top: -165.5vw;
+  left: 30vw;
+  width: 40vw;
+  height: 45vw;
+  background: #fff;
+  border-radius: 3vw;
+}
+.podlogkap {
+  position: absolute;
+  top: -165.5vw;
+  left: 30vw;
+  width: 40vw;
+  height: 47vw;
+  background: #fff;
+  border-radius: 3vw;
+}
+.podlogkapt {
+  position: absolute;
+  top: 53.5vw;
+  left: 30vw;
+  width: 40vw;
+  height: 47vw;
+  background: #fff;
+  border-radius: 3vw;
+  border: 0.2vw solid black;
+}
+.crying {
+  position: absolute;
+  top: 45vw;
+}
+.podlogka2 {
+  position: absolute;
+  top: -165.5vw;
+  left: 30vw;
+  width: 40vw;
+  height: 47vw;
+  background: #fff;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+}
+.podlogkaf {
+  position: relative;
+  top: -165.5vw;
+  left: 30vw;
+  width: 41.5vw;
+  height: 45vw;
+  background: #8CF104;
+  border-radius: 3vw;
+}
+.podlogkafq {
+  position: absolute;
+  top: 399.5vw;
+  left: 11vw;
+  width: 41.5vw;
+  height: 51vw;
+  background: #8CF104;
+  border-radius: 3vw;
+}
+.liftingyou {
+  position: absolute;
+  top: 102vw;
+}
+.gettext {
+  position: relative;
+  top: -161.5vw;
+  left: 33vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gettextp {
+  position: relative;
+  top: -207vw;
+  left: 33vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gettextpmap {
+  position: relative;
+  top: -35vw;
+  left: 33.5vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gettextpmaps {
+  position: relative;
+  top: -31vw;
+  left: 33.5vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gettextpmapsf {
+  position: relative;
+  top: -29vw;
+  left: 33.5vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gettext2 {
+  position: relative;
+  top: 302vw;
+  left: 14.5vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.row {
+  width: 15.5vw;
+  height: 3.5vw;
+}
+.closeme {
+  position: relative;
+  top: 310.2vw;
+  left: 15vw;
+}
+.closemep {
+  position: relative;
+  top: 265.1vw;
+  left: 15vw;
+}
+.imya {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+  top: 303.5vw;
+  left: 14.5vw;
+}
+.imyap {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+  top: 259vw;
+  left: 14.5vw;
+}
+.consult {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+  top: 302vw;
+  left: 14.5vw;
+}
+.teleph {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  top: 310.5vw;
+  left: 14.5vw;
+}
+.telephp {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  top: 265.5vw;
+  left: 14.5vw;
+}
+.nameme {
+  position: relative;
+  border-radius: 2vw;;
+  padding: 5px 20px;
+  border: 2px solid #000000;
+  width: 31vw;
+  height: 3.5vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #000000;
+  top: 304vw;
+  left: 14.5vw;
+}
+.namemep {
+  position: relative;
+  border-radius: 2vw;;
+  padding: 5px 20px;
+  border: 2px solid #000000;
+  width: 31vw;
+  height: 3.5vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #000000;
+  top: 259vw;
+  left: 14.5vw;
+}
+.phoneme {
+  position: relative;
+  border-radius: 2vw;;
+  padding: 5px 15px;
+  border: 2px solid #000000;
+  width: 31vw;
+  height: 3.5vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #000000;
+  top: 312vw;
+  left: 14.5vw;
+}
+.phonemep {
+  position: relative;
+  border-radius: 2vw;;
+  padding: 5px 15px;
+  border: 2px solid #000000;
+  width: 31vw;
+  height: 3.5vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #000000;
+  top: 266.8vw;
+  left: 14.5vw;
+}
+[for="rule"]{
+  position: relative;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.25vw;
+  color: #000000;
+  width: 30vw;
+  display: block;
+  top: 325vw;
+  left: 14.5vw;
+}
+[for="rulep"]{
+  position: relative;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.25vw;
+  color: #000000;
+  width: 30vw;
+  display: block;
+  top: 279.7vw;
+  left: 14.5vw;
+}
+[for="rulec"]{
+  display: none;
+}
+.container {
+  position: relative;
+  top: -466.4vw;
+  left: 18.4vw;
+}
+.containertaber {
+  position: absolute;
+  top: -464vw;
+  left: 4vw;
+}
+.container {
+  width: 30vw;
+}
+.wantme {
+  position: relative;
+  top: 314.5vw;
+  left: 14.5vw;
+  width: 22vw;
+  height: 5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  border: none;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+.wantmep {
+  position: relative;
+  top: 269.5vw;
+  left: 14.5vw;
+  width: 22vw;
+  height: 5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  border: none;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+.wantmef {
+  position: relative;
+  top: 314.5vw;
+  left: 14.5vw;
+  width: 22vw;
+  height: 5vw;
+  background: #fff;
+  border-radius: 3vw;
+  border: none;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+.close {
+  position: relative;
+  top: -10.8vw;
+  left: 31.2vw;
+  background: #000000;
+  border-radius: 5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  cursor: pointer;
+}
+.close:hover {
+  background: #8CF104;
+  transition: all .5s ease-out;
+}
+.closemap {
+  position: relative;
+  top: 254.8vw;
+  left: 45.2vw;
+  background: #000000;
+  border-radius: 5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  cursor: pointer;
+}
+.closemap:hover {
+  background: #8CF104;
+  transition: all .5s ease-out;
+}
+.opa {
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+.opaс {
+  opacity: 1;
+  transition: all .5s ease-out;
+}
+.cross {
+  position: relative;
+  top: -13.5vw;
+  left: 32vw;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+.crossmap {
+  position: relative;
+  top: 252.1vw;
+  left: 46vw;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+.kach {
+  position: absolute;
+  top: 399.5vw;
+  left: 54.5vw;
+  width: 35vw;
+  height: 51vw;
+}
+.mapper {
+  position: relative;
+  top: -46vw;
+  left: 35vw;
+  width: 47vw;
+  height: 49vw;
+}
+.findme {
+  position: relative;
+  top: -84vw;
+  left: 14vw;
+  width: 8vw;
+  height: 8vw;
+}
+.findme:hover {
+  width: 9vw;
+  height: 9vw;
+  transition: all .5s ease-out;
+}
+.findme2 {
+  position: relative;
+  top: -62vw;
+  left: -14vw;
+  width: 8vw;
+  height: 8vw;
+}
+.findme2:hover {
+  width: 9vw;
+  height: 9vw;
+  transition: all .5s ease-out;
+}
+input:focus {
+  outline-color: #8CF104;
+}
+.anim {
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+.anim.show {
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+.befitt {
+  position: absolute;
+  top: 566vw;
+  left: 7vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #8CF104;
+  font-family: "DrukCyrMedium";
+  font-size: 5vw;
+}
+.befittab {
+  position: relative;
+  top: 18vw;
+  left: 0vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #8CF104;
+  font-family: "DrukCyrMedium";
+  font-size: 5vw;
+  padding-bottom: 5vw;
+}
+.befittabt {
+  position: relative;
+  top: 15.5vw;
+  left: 0vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #8CF104;
+  font-family: "DrukCyrMedium";
+  font-size: 5vw;
+  padding-bottom: 5vw;
+}
+.switch {
+  background-color: #8CF104;
+  position: relative;
+  border-radius: 2vw;
+  top: 93vw;
+  left: 7vw;
+  width: 50vw;
+  height: 10vw;
+}
+.switch1 {
+  background-color: #fff;
+  position: relative;
+  border-radius: 2vw;
+  width: 25vw;
+  height: 10vw;
+}
+.switch2 {
+  background-color: #fff;
+  position: relative;
+  border-radius: 2vw;
+  top: 0vw;
+  left: 25vw;
+  width: 25vw;
+  height: 10vw;
+}
+.box {
+  position: relative;
+  display: grid;
+  grid-gap: 1.5vw;
+  margin: 7vw;
+  width: 86vw;
+  height: 60vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  top: -102vw;
+}
+.box2 {
+  position: relative;
+  display: grid;
+  grid-gap: 1.5vw;
+  margin: 7vw;
+  width: 86vw;
+  height: 90vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  top: -102vw;
+}
+.box3 {
+  position: relative;
+  display: grid;
+  grid-gap: 1.5vw;
+  margin: 7vw;
+  width: 86vw;
+  height: 40vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  top: 123vw;
+}
+.feed1 {
+  background-color: #fff;
+  grid-column: 1/3;
+  grid-row: 1/1;
+  position: relative;
+  border-radius: 2vw;
+}
+.feed2 {
+  background-color: #fff;
+  grid-column: 3/5;
+  grid-row: 1/1;
+  position: relative;
+  border-radius: 2vw;
+}
+.feed3 {
+  background-color: #fff;
+  grid-column: 5/7;
+  grid-row: 1/1;
+  position: relative;
+  border-radius: 2vw;
+}
+.feed4 {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 1/1;
+  position: relative;
+  border-radius: 2vw;
+}
+.feed5 {
+  background-color: #8CF104;
+  grid-column: 3/5;
+  grid-row: 1/1;
+  position: relative;
+  border-radius: 2vw;
+}
+.feed6 {
+  background-color: #8CF104;
+  grid-column: 5/7;
+  grid-row: 1/1;
+  position: relative;
+  border-radius: 2vw;
+}
+.time {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 28.5vw;
+  top: 97vw;
+  border-radius: 2vw;
+}
+.time4 {
+  position: relative;
+  background-color: #8CF104;
+  left: 7vw;
+  width: 86vw;
+  height: 28.5vw;
+  top: 97vw;
+  border-radius: 2vw;
+}
+.napr {
+  position: relative;
+  background-color: #8CF104;
+  left: 7vw;
+  width: 86vw;
+  height: 40vw;
+  top: 2vw;
+  border-radius: 2vw;
+}
+.napr2 {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 38.5vw;
+  top: 4vw;
+  border-radius: 2vw;
+}
+.napr2s {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 34.5vw;
+  top: 4vw;
+  border-radius: 2vw;
+}
+.napr2sf {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 32.5vw;
+  top: 4vw;
+  border-radius: 2vw;
+}
+.napr2t {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 34.5vw;
+  top: 4vw;
+  border-radius: 2vw;
+}
+.time2 {
+  position: relative;
+  background-color: #8CF104;
+  left: 7vw;
+  width: 86vw;
+  height: 28.5vw;
+  top: 99vw;
+  border-radius: 2vw;
+}
+.time5 {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 28.5vw;
+  top: 99vw;
+  border-radius: 2vw;
+}
+.time3 {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 28.5vw;
+  top: 101vw;
+  border-radius: 2vw;
+}
+.time6 {
+  position: relative;
+  background-color: #8CF104;
+  left: 7vw;
+  width: 86vw;
+  height: 28.5vw;
+  top: 101vw;
+  border-radius: 2vw;
+}
+.abon {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 37.4vw;
+  top: 115vw;
+  border-radius: 2vw;
+}
+.request {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 62vw;
+  top: 157vw;
+  border-radius: 2vw;
+}
+.request2 {
+  position: relative;
+  background-color: #fff;
+  left: 7vw;
+  width: 86vw;
+  height: 63vw;
+  top: 469.5vw;
+  border-radius: 2vw;
+}
+/* .bottom {
+  position: absolute;
+  background-color: #fff;
+  left: 7vw;
+  top: 100vw;
+  width: 10vw;
+  height: 10vw;
+} */
+.abon2 {
+  position: relative;
+  background-color: #8CF104;
+  left: 7vw;
+  width: 86vw;
+  height: 37.4vw;
+  top: 117vw;
+  border-radius: 2vw;
+}
+.tabata {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  position: relative;
+  border-radius: 2vw;
+}
+.tabatatext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.steptext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.fittext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.sculpttext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.balltext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.trxtext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.pilatestext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.stretchingtext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.zumbatext {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.step {
+  background-color: #FFFFFF;
+  grid-column: 3/5;
+  grid-row: 1/3;
+  position: relative;
+  border-radius: 2vw;
+}
+.fit {
+  background-color: #8CF104;
+  grid-column: 5/7;
+  grid-row: 1/3;
+  position: relative;
+  border-radius: 2vw;
+}
+.sculpt {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 3/5;
+  position: relative;
+  border-radius: 2vw;
+}
+.ball {
+  background-color: #8CF104;
+  grid-column: 3/5;
+  grid-row: 3/5;
+  position: relative;
+  border-radius: 2vw;
+}
+.trx {
+  background-color: #FFFFFF;
+  grid-column: 5/7;
+  grid-row: 3/5;
+  position: relative;
+  border-radius: 2vw;
+}
+.pilates {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 5/7;
+  position: relative;
+  border-radius: 2vw;
+}
+.stretching {
+  background-color: #FFFFFF;
+  grid-column: 3/5;
+  grid-row: 5/7;
+  position: relative;
+  border-radius: 2vw;
+}
+.zumba {
+  background-color: #8CF104;
+  grid-column: 5/7;
+  grid-row: 5/7;
+  position: relative;
+  border-radius: 2vw;
+}
+.benefits {
+  background-color: #FFFFFF;
+  grid-column: 1/4;
+  grid-row: 1/3;
+  position: relative;
+  border-radius: 1vw;
+}
+.directions {
+  background-color: #8CF104;
+  grid-column: 4/8;
+  grid-row: 1/3;
+  position: relative;
+  border-radius: 1vw;
+}
+.vehicle {
+  background-color: #8CF104;
+  grid-column: 1/4;
+  grid-row: 3/6;
+  position: relative;
+  border-radius: 1vw;
+}
+.bar {
+  background-color: #FFFFFF;
+  grid-column: 4/8;
+  grid-row: 3/6;
+  position: relative;
+  border-radius: 1vw;
+}
+.sport {
+  position: relative;
+  top: 1.525vw;
+  left: 7vw;
+  width: 20vw;
+  height: 25vw;
+}
+.sportik {
+  position: relative;
+  top: 2.05vw;
+  left: 22vw;
+  width: 37vw;
+  height: 38vw;
+}
+.sportik7 {
+  position: relative;
+  top: -6.95vw;
+  left: 20vw;
+  width: 44vw;
+  height: 47vw;
+}
+.sportikfit {
+  position: relative;
+  top: -1.95vw;
+  left: 14vw;
+  width: 47vw;
+  height: 44vw;
+}
+.sportik2 {
+  position: relative;
+  top: 2.05vw;
+  left: 25vw;
+  width: 37vw;
+  height: 38vw;
+}
+.trxtik {
+  position: relative;
+  top: 5.05vw;
+  left: 9vw;
+  width: 58vw;
+  height: 38vw;
+}
+.sportik3 {
+  position: relative;
+  top: 2.05vw;
+  left: 10vw;
+  width: 51vw;
+  height: 38vw;
+}
+.sportikstretch {
+  position: relative;
+  top: -2.95vw;
+  left: 13vw;
+  width: 57vw;
+  height: 43vw;
+}
+.sport2 {
+  position: relative;
+  top: -0.95vw;
+  left: 3vw;
+  width: 30vw;
+  height: 25vw;
+}
+.sport3 {
+  position: relative;
+  top: -3.3vw;
+  left: 8.8vw;
+  width: 19vw;
+  height: 35vw;
+}
+.sport4 {
+  position: relative;
+  top: -6.34vw;
+  left: 6.2vw;
+  width: 21vw;
+  height: 35vw;
+}
+.sport5 {
+  position: relative;
+  top: -4.34vw;
+  left: 1vw;
+  width: 27vw;
+  height: 35vw;
+}
+.sport6 {
+  position: relative;
+  top: -1.34vw;
+  left: 5.8vw;
+  width: 22vw;
+  height: 35vw;
+}
+.sport7 {
+  position: relative;
+  top: -5.74vw;
+  left: 6.2vw;
+  width: 21vw;
+  height: 35vw;
+}
+.sport8 {
+  position: relative;
+  top: -4.34vw;
+  left: 6.75vw;
+  width: 21vw;
+  height: 35vw;
+}
+.sport9 {
+  position: relative;
+  top: -3.14vw;
+  left: 7vw;
+  width: 21vw;
+  height: 35vw;
+}
+.icon {
+  position: relative;
+  top: 4vw;
+  left: 4vw;
+  width: 6vw;
+  height: 6vw;
+}
+.icon:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.icon2 {
+  position: relative;
+  top: 3.6vw;
+  left: 4vw;
+  width: 6vw;
+  height: 6vw;
+}
+.icon2:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.icon3 {
+  position: relative;
+  top: 3.6vw;
+  left: 4vw;
+  width: 6vw;
+  height: 6vw;
+}
+.icon3mob {
+ display: none;
+}
+.icon4mob {
+ display: none;
+}
+.icon3:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.icon4 {
+  position: relative;
+  top: 3.6vw;
+  left: 4vw;
+  width: 6vw;
+  height: 6vw;
+}
+.icon4:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.last {
+  position: relative;
+  top: 8.6vw;
+  left: 44vw;
+  width: 12vw;
+  height: 4vw;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+  background-color: #fff;
+}
+.last:hover {
+  background-color: #8CF104;
+  border: 0.2vw solid #8CF104;
+  transition: all .5s ease-out;
+}
+.last4 {
+  position: relative;
+  top: 8.6vw;
+  left: 44vw;
+  width: 12vw;
+  height: 4vw;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+  background-color: #8CF104;
+}
+.last4:hover {
+  background-color: #fff;
+  border: 0.2vw solid #fff;
+  transition: all .5s ease-out;
+}
+.last2 {
+  position: relative;
+  top: 4.25vw;
+  left: 57vw;
+  width: 13vw;
+  height: 4vw;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+  background-color: #fff;
+}
+.last2:hover {
+  background-color: #8CF104;
+  border: 0.2vw solid #8CF104;
+  transition: all .5s ease-out;
+}
+.last5 {
+  position: relative;
+  top: 4.25vw;
+  left: 57vw;
+  width: 13vw;
+  height: 4vw;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+  background-color: #8CF104;
+}
+.last5:hover {
+  background-color: #fff;
+  border: 0.2vw solid #fff;
+  transition: all .5s ease-out;
+}
+.last3 {
+  position: relative;
+  top: -0.1vw;
+  left: 71vw;
+  width: 13vw;
+  height: 4vw;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+  background-color: #fff;
+}
+.last3:hover {
+  background-color: #8CF104;
+  border: 0.2vw solid #8CF104;
+  transition: all .5s ease-out;
+}
+.last6 {
+  position: relative;
+  top: -0.1vw;
+  left: 71vw;
+  width: 13vw;
+  height: 4vw;
+  border-radius: 3vw;
+  border: 0.2vw solid #000000;
+  background-color: #8CF104;
+}
+.last6:hover {
+  background-color: #fff;
+  border: 0.2vw solid #fff;
+  transition: all .5s ease-out;
+}
+.month {
+  position: absolute;
+  top: 9.9vw;
+  left: 46.4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.month6 {
+  position: absolute;
+  top: 9.9vw;
+  left: 58.6vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.month12 {
+  position: absolute;
+  top: 9.9vw;
+  left: 72.2vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.shift {
+  position: absolute;
+  left: -1.5vw;
+}
+.boxtitle {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.monday {
+  position: absolute;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.mondayr {
+  position: absolute;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.mondayc {
+  display: none;
+}
+.karkar {
+  top: 0vw;
+}
+.classic {
+  position: absolute;
+  top: 5vw;
+  left: 44vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.name {
+  position: relative;
+  top: -11vw;
+  left: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.adress {
+  position: relative;
+  top: 4.5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.8vw;
+  white-space: nowrap;
+}
+.map {
+  position: absolute;
+  top: 4.5vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.8vw;
+  white-space: nowrap;
+}
+.kat {
+  position: relative;
+  top: 1.9vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.4vw;
+  white-space: nowrap;
+}
+.deposh {
+  position: relative;
+  top: 1.9vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.4vw;
+  white-space: nowrap;
+}
+.telt {
+  position: relative;
+  top: 1.9vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.4vw;
+  white-space: nowrap;
+}
+.telt2 {
+  position: relative;
+  top: 1.9vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.4vw;
+  white-space: nowrap;
+}
+.work {
+  position: relative;
+  top: 1.9vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.4vw;
+  white-space: nowrap;
+}
+.katop {
+  position: relative;
+  top: 2.4vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.depop {
+  position: relative;
+  top: 2.4vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.telop {
+  position: relative;
+  top: 2.4vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.telop2 {
+  position: relative;
+  top: 2.4vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.workop {
+  position: relative;
+  top: 2.4vw;
+  left: 8.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.contme {
+  position: absolute;
+  top: 567.5vw;
+  left: 72.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+  margin-bottom: -20vw;
+}
+.kiki {
+  position: absolute;
+  top: 42.5vw;
+  left: 66.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+}
+.kikis {
+  position: absolute;
+  top: 38.5vw;
+  left: 66.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+}
+.kikisf {
+  position: absolute;
+  top: 36.5vw;
+  left: 66.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+}
+.kiki2 {
+  position: absolute;
+  top: 44.5vw;
+  left: 66.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+}
+.kikis2 {
+  position: absolute;
+  top: 40.5vw;
+  left: 66.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+}
+.kikisf2 {
+  position: absolute;
+  top: 38.5vw;
+  left: 66.5vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+}
+.name2 {
+  position: relative;
+  top: -11vw;
+  left: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.name3 {
+  position: relative;
+  top: -11vw;
+  left: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.razdel {
+  position: absolute;
+  top: 6vw;
+  left: 37vw;
+  background-color: #000000;
+  width: 45vw;
+  height: 0.1vw;
+}
+.razdel2 {
+  position: absolute;
+  top: 6vw;
+  left: 28.5vw;
+  background-color: #000000;
+  width: 53vw;
+  height: 0.1vw;
+}
+.razdel3 {
+  position: absolute;
+  top: 6vw;
+  left: 47vw;
+  background-color: #000000;
+  width: 35vw;
+  height: 0.1vw;
+}
+.card {
+  position: absolute;
+  top: 0vw;
+  left: 4vw;
+  width: 35vw;
+  height: 37.5vw;
+}
+.human {
+  position: relative;
+  top: -4.5vw;
+  left: 3.5vw;
+  width: 20.5vw;
+  height: 45vw;
+}
+.human2 {
+  position: relative;
+  top: -4.5vw;
+  left: 3.5vw;
+  width: 20.5vw;
+  height: 45vw;
+}
+.human3 {
+  position: relative;
+  top: -4.5vw;
+  left: 3.5vw;
+  width: 20.5vw;
+  height: 45vw;
+}
+.geo {
+  position: relative;
+  top: 6vw;
+  left: 3.5vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timerx {
+  position: relative;
+  top: 6vw;
+  left: 3.5vw;
+  width: 4.3vw;
+  height: 4.5vw;
+}
+.tel {
+  position: relative;
+  top: 5.5vw;
+  left: 3.5vw;
+  width: 4vw;
+  height: 4vw;
+}
+.tel2 {
+  position: relative;
+  top: 5.5vw;
+  left: 3.5vw;
+  width: 4vw;
+  height: 4vw;
+}
+.timer {
+  position: absolute;
+  top: 10vw;
+  left: 4vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timer:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.timer2 {
+  position: absolute;
+  top: 18vw;
+  left: 4vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timer2:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.timer3 {
+  position: absolute;
+  top: 10vw;
+  left: 32vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timer3:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.timer4 {
+  position: absolute;
+  top: 18vw;
+  left: 32vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timer4:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.timer5 {
+  position: absolute;
+  top: 10vw;
+  left: 60.5vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timer5:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.timer6 {
+  position: absolute;
+  top: 18vw;
+  left: 60.5vw;
+  width: 5vw;
+  height: 5vw;
+}
+.timer6:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+.stars {
+  position: relative;
+  top: -10vw;
+  left: 3vw;
+  width: 15vw;
+  height: 5vw;
+}
+.stars2 {
+  position: relative;
+  top: -10vw;
+  left: 3vw;
+  width: 15vw;
+  height: 5vw;
+}
+.go {
+  position: absolute;
+  top: 10.6vw;
+  left: 10.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext {
+  position: absolute;
+  top: 13.6vw;
+  left: 10.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.monthtext {
+  position: relative;
+  top: 1.6vw;
+  left: 44vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nametext {
+  position: relative;
+  top: -10vw;
+  left: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.43vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nametext2 {
+  position: relative;
+  top: -10vw;
+  left: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.43vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nametext3 {
+  position: relative;
+  top: -10vw;
+  left: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.43vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.monthtext2 {
+  position: relative;
+  top: 2.6vw;
+  left: 44vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.monthtext3 {
+  position: relative;
+  top: 3.6vw;
+  left: 44vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.go2 {
+  position: absolute;
+  top: 18.6vw;
+  left: 10.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext2 {
+  position: absolute;
+  top: 21.2vw;
+  left: 10.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go3 {
+  position: absolute;
+  top: 10.6vw;
+  left: 38.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext3 {
+  position: absolute;
+  top: 13.6vw;
+  left: 38.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go4 {
+  position: absolute;
+  top: 18.6vw;
+  left: 38.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext4 {
+  position: absolute;
+  top: 21.2vw;
+  left: 38.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go5 {
+  position: absolute;
+  top: 10.6vw;
+  left: 67vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext5 {
+  position: absolute;
+  top: 13.6vw;
+  left: 67vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go6 {
+  position: absolute;
+  top: 18.6vw;
+  left: 67vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext6 {
+  position: absolute;
+  top: 21.2vw;
+  left: 67vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.boxtitle2 {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.boxtitle3 {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.boxtitle4 {
+  position: relative;
+  top: 5vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 2.5vw;
+  white-space: nowrap;
+}
+.boxtext {
+  position: relative;
+  top: 6vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.boxtext2 {
+  position: relative;
+  top: 6vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.boxtext3 {
+  position: relative;
+  top: 6vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.boxtext4 {
+  position: relative;
+  top: 6vw;
+  left: 4vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.6vw;
+  white-space: nowrap;
+}
+.container2 {
+  position: absolute;
+  top: -419vw;
+}
+.containertab {
+  position: absolute;
+  top: 10vw;
+}
+.container3 {
+  position: absolute;
+  top: 553.8vw;
+}
+.container4 {
+  position: absolute;
+  top: 38.8vw;
+}
+.container5 {
+  position: absolute;
+  top: 38.8vw;
+}
+/* .containerf {
+  position: absolute;
+  top: 565vw;
+  left: -19vw;
+} */
+/* .fillmeg {
+  position: absolute;
+  top: 565vw;
+  left: -19vw;
+} */
+.wrapme {
+  position: absolute;
+  top: 176vw;
+}
+.nooca {
+  position: relative;
+  top: 565vw;
+  left: -19vw;
+}
+.shiftme {
+  position: absolute;
+  top: 0vw;
+}
+}

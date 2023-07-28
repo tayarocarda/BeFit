@@ -1,0 +1,2096 @@
+@media only screen and (min-width: 1px) and (max-width: 549px){
+  body {
+    background: #000000;
+  }
+  .none {
+    display: none;
+  }
+  nav > .menu-items > a:nth-child(1) {
+    position: relative;
+    line-height: 2vw;
+    top: 30vw;
+    left: 20vw;
+    color: #8CF104;
+    font-family: "DrukCyrMedium";
+    font-size: 35vw;
+    text-decoration: none;
+}
+.befitt {
+  position: relative;
+  top: 1776vw;
+  left: 32vw;
+  color: #8CF104;
+  font-family: "DrukCyrMedium";
+  font-size: 35vw;
+}
+.menu {
+  position: relative;
+  top: 5vw;
+  left: 318vw;
+  width: 33vw;
+  height: 20vw;
+}
+.liner {
+  position: relative;
+  margin-top: 30vw;
+  width: 371vw;
+}
+.girl {
+  position: relative;
+  top: -227vw;
+  width: 373vw;
+  animation: logogo 3s linear infinite;
+}
+@keyframes logogo {
+ 0% {top: -227vw;;}
+ 50% {top: -257vw;}
+ 100% {top: -227vw;}
+}
+.slogan2 {
+  position: relative;
+  top: -245vw;
+  left: 104vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 60vw;
+  text-decoration: none;
+  white-space: nowrap;
+  animation: shift2 3s linear infinite;
+}
+@keyframes shift2 {
+  0% {left: 104vw;}
+  50% {left: 74vw;}
+  100% {left: 104vw;}
+}
+.button {
+  position: relative;
+  top: -183vw;
+  left: 56vw;
+  width: 262vw;
+  height: 50vw;
+  background: #8CF104;
+  border-radius: 25vw;
+  cursor: pointer;
+}
+.circle {
+  position: relative;
+  top: -226.7vw;
+  left: 262vw;
+  width: 30vw;
+  height: 30vw;
+  background: #fff;
+  border-radius: 20vw;
+}
+.circleform {
+  position: relative;
+  top: 258.2vw;
+  left: 139vw;
+  width: 20vw;
+  height: 20vw;
+  background: #fff;
+  border-radius: 20vw;
+}
+.circleform2 {
+  position: relative;
+  top: 258.2vw;
+  left: 139vw;
+  width: 20vw;
+  height: 20vw;
+  background: #8CF104;
+  border-radius: 20vw;
+}
+.circleform2t {
+  position: relative;
+  top: 471.2vw;
+  left: 148vw;
+  width: 20vw;
+  height: 20vw;
+  background: #fff;
+  border-radius: 20vw;
+}
+.circleform2tp {
+  position: relative;
+  top: 484.2vw;
+  left: 156vw;
+  width: 20vw;
+  height: 20vw;
+  background: #fff;
+  border-radius: 20vw;
+}
+.circleform2t2 {
+  position: relative;
+  top: 484.2vw;
+  left: 138vw;
+  width: 20vw;
+  height: 20vw;
+  background: #fff;
+  border-radius: 20vw;
+}
+.arrow {
+  position: relative;
+  top: -249.5vw;
+  left: 268.7vw;
+  width: 17vw;
+  height: 15vw;
+}
+.arrowformtf {
+  position: absolute;
+  top: 568.5vw;
+  left: 141vw;
+  width: 15vw;
+  height: 15vw;
+}
+.arrowformt {
+  position: absolute;
+  top: 555.5vw;
+  left: 150.7vw;
+  width: 15vw;
+  height: 15vw;
+}
+.arrowformtl {
+  position: absolute;
+  top: 568.5vw;
+  left: 157.7vw;
+  width: 15vw;
+  height: 15vw;
+}
+.circleform2t4s {
+  position: relative;
+  top: 474.2vw;
+  left: 140.5vw;
+  width: 20vw;
+  height: 20vw;
+  background: #8CF104;
+  border-radius: 20vw;
+}
+.zcircleform2t24 {
+  position: relative;
+  top: 484.2vw;
+  left: 138vw;
+  width: 20vw;
+  height: 20vw;
+  background: #8CF104;
+  border-radius: 20vw;
+}
+.circleform2t4 {
+  position: relative;
+  top: 484.2vw;
+  left: 156vw;
+  width: 20vw;
+  height: 20vw;
+  background: #8CF104;
+  border-radius: 20vw;
+}
+.zarrowformtf {
+    position: absolute;
+    top: 568.5vw;
+    left: 141vw;
+    width: 15vw;
+    height: 15vw;
+}
+.arrowformts {
+  position: absolute;
+  top: 569.5vw;
+  left: 158.7vw;
+  width: 12vw;
+  height: 15vw;
+}
+.arrowformtsu {
+  position: absolute;
+  top: 559.5vw;
+  left: 143.7vw;
+  width: 12vw;
+  height: 15vw;
+}
+.arrowform {
+  position: relative;
+  top: 243vw;
+  left: 141.7vw;
+  width: 15vw;
+  height: 10vw;
+}
+.try {
+  position: relative;
+  top: -217.6vw;
+  left: 84.8vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.containerun {
+  position: absolute;
+  width: 370vw;
+  height: 35vw;
+  background: #fff;;
+  margin-top: -205vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.containerun2 {
+  position: absolute;
+  width: 370vw;
+  height: 35vw;
+  background: #fff;;
+  margin-top: 1779vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.containerun2 {
+   display: none;
+}
+.containerun3 {
+   display: none;
+}
+.kach {
+  display: none;
+}
+#why {
+  position: relative;
+  top: -127vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#variants {
+  position: relative;
+  top: -82vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#timetable {
+  position: relative;
+  top: 20vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#abonement {
+  position: relative;
+  top: 180vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#feedback {
+  position: relative;
+  top: 288vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.questions {
+  position: relative;
+  top: 420vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#contacts {
+  position: relative;
+  top: 946vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 50vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.switch {
+  background-color: #8CF104;
+  position: relative;
+  border-radius: 20vw;
+  top: 69vw;
+  left: 31vw;
+  width: 295vw;
+  height: 67vw;
+}
+.mimik {
+  position: absolute;
+  top: 8754vw;
+}
+.switch1 {
+  background-color: #fff;
+  position: relative;
+  border-radius: 20vw;
+  width: 148vw;
+  height: 67vw;
+}
+.switch2 {
+  background-color: #fff;
+  position: relative;
+  border-radius: 20vw;
+  width: 148vw;
+  height: 67vw;
+  left: 147vw;
+}
+.monday {
+  position: absolute;
+  top: 29vw;
+  left: 27vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  white-space: nowrap;
+}
+.classic{
+  position: absolute;
+  top: 252vw;
+  left: 27vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  white-space: nowrap;
+}
+.name {
+  position: absolute;
+  top: 355vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 24vw;
+  white-space: nowrap;
+}
+.name2 {
+  position: absolute;
+  top: 355vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 24vw;
+  white-space: nowrap;
+}
+.name3 {
+  position: absolute;
+  top: 355vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 24vw;
+  white-space: nowrap;
+}
+.gettext2 {
+  position: relative;
+  top: -442vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 24vw;
+  white-space: nowrap;
+}
+.map {
+  position: relative;
+  top: -357vw;
+  left: 27vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 24vw;
+  white-space: nowrap;
+}
+.adress {
+  position: relative;
+  top: 364vw;
+  left: 27vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 24vw;
+  white-space: nowrap;
+}
+.last {
+  position: relative;
+  top: 278vw;
+  left: 26vw;
+  width: 78vw;
+  height: 27vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+  background-color: #fff;
+}
+.last4 {
+  position: relative;
+  top: 278vw;
+  left: 26vw;
+  width: 78vw;
+  height: 27vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+  background-color: #8CF104;
+}
+.oformbut {
+  position: relative;
+  top: 303vw;
+  left: 26vw;
+  width: 153vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #8CF104;
+  background-color: #8CF104;
+}
+.oformbutt {
+  position: relative;
+  top: 501vw;
+  left: 36vw;
+  width: 153vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #8CF104;
+  background-color: #8CF104;
+}
+.oformbutt4 {
+  position: relative;
+  top: 513vw;
+  left: 36vw;
+  width: 153vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #fff;
+  background-color: #fff;
+}
+.oformbutt4k {
+  position: relative;
+  top: 502vw;
+  left: 36vw;
+  width: 153vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #fff;
+  background-color: #fff;
+}
+.oformbutt4m {
+  position: relative;
+  top: 513vw;
+  left: 36vw;
+  width: 171vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #fff;
+  background-color: #fff;
+}
+.oformbuttc {
+  position: relative;
+  top: 513vw;
+  left: 36vw;
+  width: 153vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #8CF104;
+  background-color: #8CF104;
+}
+.oformbuttcx {
+  position: relative;
+  top: 513vw;
+  left: 36vw;
+  width: 169vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #8CF104;
+  background-color: #8CF104;
+}
+.wantmef {
+  position: relative;
+  top: -411vw;
+  left: 56vw;
+  width: 169vw;
+  height: 40vw;
+  border-radius: 20vw;
+  border: 1vw solid #fff;
+  background-color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  cursor: pointer;
+}
+.oformbut2 {
+  position: relative;
+  top: 303vw;
+  left: 26vw;
+  width: 153vw;
+  height: 35vw;
+  border-radius: 20vw;
+  border: 1vw solid #fff;
+  background-color: #fff;
+}
+.last2 {
+  position: relative;
+  top: 250vw;
+  left: 110vw;
+  width: 78vw;
+  height: 27vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+  background-color: #fff;
+}
+.last5 {
+  position: relative;
+  top: 250vw;
+  left: 110vw;
+  width: 78vw;
+  height: 27vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+  background-color: #8CF104;
+}
+.last3 {
+  position: relative;
+  top: 221vw;
+  left: 194vw;
+  width: 78vw;
+  height: 28vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+  background-color: #fff;
+}
+.last6 {
+  position: relative;
+  top: 221vw;
+  left: 194vw;
+  width: 78vw;
+  height: 28vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+  background-color: #8CF104;
+}
+.mondayc {
+  position: absolute;
+  top: 29vw;
+  left: 27vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  white-space: nowrap;
+}
+.mondayr {
+  display: none;
+}
+.razdel {
+  position: absolute;
+  top: 59vw;
+  left: 27vw;
+  background-color: #000000;
+  width: 241vw;
+  height: 1.5vw;
+}
+.razdel2 {
+  position: absolute;
+  top: 59vw;
+  left: 27vw;
+  background-color: #000000;
+  width: 241vw;
+  height: 1.5vw;
+}
+.razdel3 {
+  position: absolute;
+  top: 77vw;
+  left: 27vw;
+  background-color: #000000;
+  width: 241vw;
+  height: 1.5vw;
+}
+.karkar {
+  position: absolute;
+  top: 18vw;
+}
+.go {
+  position: absolute;
+  top: 76vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go2 {
+  position: absolute;
+  top: 124vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go3 {
+  position: absolute;
+  top: 169vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go4 {
+  position: absolute;
+  top: 217vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go5 {
+  position: absolute;
+  top: 264vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.go6 {
+  position: absolute;
+  top: 310vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.oformit {
+  position: relative;
+  top: 277.8vw;
+  left: -60vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.oformitt {
+  position: absolute;
+  top: 558.8vw;
+  left: 58vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+}
+.oformitts {
+  position: absolute;
+  top: 558.8vw;
+  left: 58vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+}
+.zcircleform2t24{
+
+}
+.oformitts4 {
+  position: absolute;
+  top: 559.8vw;
+  left: 76vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+}
+.oformitt2 {
+  position: absolute;
+  top: 570vw;
+  left: 78vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+}
+.zoformitt2 {
+  position: absolute;
+  top: 570vw;
+  left: 86vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+}
+.oformitt3 {
+  position: absolute;
+  top: 570vw;
+  left: 78vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.month {
+  position: relative;
+  top: 199.5vw;
+  left: -83vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 12vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.month6 {
+  position: relative;
+  top: 188vw;
+  left: 2vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 12vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.month12 {
+  position: absolute;
+  top: 288vw;
+  left: 201.5vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 12vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext {
+  position: absolute;
+  top: 93vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.monthtext {
+  position: absolute;
+  top: 318vw;
+  left: 24vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nametext {
+  position: absolute;
+  top: 386vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nametext2 {
+  position: absolute;
+  top: 386vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nametext3 {
+  position: absolute;
+  top: 386vw;
+  left: 35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.consult {
+  position: relative;
+  top: -434vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.katop {
+  position: relative;
+  top: 367vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.telop {
+  position: relative;
+  top: 360vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.telop2 {
+  position: relative;
+  top: 340vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.depop {
+  position: relative;
+  top: 348vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.workop {
+  position: relative;
+  top: 336vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.deposh {
+  position: relative;
+  top: 344vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+[for="rulec"] {
+  position: relative;
+  top: -301vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+[for="rule"] {
+  display: none;
+}
+.imya {
+  position: relative;
+  top: -424vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.kat {
+  position: absolute;
+  top: 403vw;
+  left: 56vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.telt {
+  position: relative;
+  top: 355vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.telt2 {
+  position: relative;
+  top: 335vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.work {
+  position: relative;
+  top: 330vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.teleph {
+  position: relative;
+  top: -395vw;
+  left: 55vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.contme {
+  position: relative;
+  top: 1747vw;
+  left: 158vw;
+  color: #fff;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  white-space: nowrap;
+}
+.nameme {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -410vw;
+  left: 53.5vw;
+}
+.phoneme {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -381vw;
+  left: 53.5vw;
+}
+.monthtext2 {
+  position: absolute;
+  top: 354vw;
+  left: 24vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.monthtext3 {
+  position: absolute;
+  top: 377vw;
+  left: 24vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gotext2 {
+  position: absolute;
+  top: 140vw;
+  left: 69vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext3 {
+  position: absolute;
+  top: 185vw;
+  left: 70vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext4 {
+  position: absolute;
+  top: 232vw;
+  left: 70vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext5 {
+  position: absolute;
+  top: 281vw;
+  left: 70vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.gotext6 {
+  position: absolute;
+  top: 326vw;
+  left: 70vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 13vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+.findme {
+  position: relative;
+  top: -555vw;
+  left: -50vw;
+  width: 31vw;
+  height: 42vw;
+}
+.findme2 {
+  position: relative;
+  top: -435vw;
+  left: 49vw;
+  width: 31vw;
+  height: 42vw;
+}
+.timer {
+  position: absolute;
+  top: 68vw;
+  left: 27vw;
+  width: 31vw;
+  height: 42vw;
+}
+.timer2 {
+  position: absolute;
+  top: 115vw;
+  left: 27vw;
+  width: 31vw;
+  height: 42vw;
+}
+.timer3 {
+  position: absolute;
+  top: 162vw;
+  left: 27vw;
+  width: 31vw;
+  height: 42vw;
+}
+.timer4 {
+  position: absolute;
+  top: 209vw;
+  left: 27vw;
+  width: 31vw;
+  height: 42vw;
+}
+.timer5 {
+  position: absolute;
+  top: 256vw;
+  left: 27vw;
+  width: 31vw;
+  height: 42vw;
+}
+.timer6 {
+  position: absolute;
+  top: 303vw;
+  left: 27vw;
+  width: 31vw;
+  height: 42vw;
+}
+.time {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 377vw;
+  top: 97vw;
+  border-radius: 20vw;
+}
+.card {
+  position: absolute;
+  top: 33vw;
+  left: 19vw;
+  width: 256vw;
+  height: 203.5vw;
+}
+.human {
+  position: absolute;
+  top: 33vw;
+  left: 19vw;
+  width: 256vw;
+  height: 308.5vw;
+}
+.human2 {
+  position: absolute;
+  top: 33vw;
+  left: 19vw;
+  width: 256vw;
+  height: 308.5vw;
+}
+.human3 {
+  position: absolute;
+  top: 33vw;
+  left: 19vw;
+  width: 256vw;
+  height: 308.5vw;
+}
+.mapper {
+  position: relative;
+  top: -342vw;
+  left: 23vw;
+  width: 248vw;
+  height: 274.5vw;
+}
+.abon {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 485vw;
+  top: 224vw;
+  border-radius: 20vw;
+}
+.feed1 {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 630vw;
+  top: 335vw;
+  border-radius: 20vw;
+}
+.feed4 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 630vw;
+  top: 335vw;
+  border-radius: 20vw;
+}
+.feed2 {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 642vw;
+  top: 353vw;
+  border-radius: 20vw;
+}
+.feed5 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 642vw;
+  top: 353vw;
+  border-radius: 20vw;
+}
+.feed3 {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 642vw;
+  top: 370vw;
+  border-radius: 20vw;
+}
+.feed6 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 642vw;
+  top: 370vw;
+  border-radius: 20vw;
+}
+.request {
+ display: none;
+}
+.podlogkafq {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 430vw;
+  top: -45vw;
+  border-radius: 20vw;
+}
+.request2 {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 764vw;
+  top: 820vw;
+  border-radius: 20vw;
+}
+.karlik {
+  position: absolute;
+  top: 9088vw;
+}
+.stars {
+  position: relative;
+  top: 500vw;
+  left: 35vw;
+  width: 120vw;
+  height: 45vw;
+}
+.stars2 {
+  position: relative;
+  top: 513vw;
+  left: 35vw;
+  width: 120vw;
+  height: 45vw;
+}
+.abon2 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 485vw;
+  top: 242vw;
+  border-radius: 20vw;
+}
+.time4 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 377vw;
+  top: 97vw;
+  border-radius: 20vw;
+}
+.time2 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 377vw;
+  top: 113vw;
+  border-radius: 20vw;
+}
+.time5 {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 377vw;
+  top: 113vw;
+  border-radius: 20vw;
+}
+.time3 {
+  position: relative;
+  background-color: #fff;
+  left: 31vw;
+  width: 295vw;
+  height: 392vw;
+  top: 130vw;
+  border-radius: 20vw;
+}
+.time6 {
+  position: relative;
+  background-color: #8CF104;
+  left: 31vw;
+  width: 295vw;
+  height: 392vw;
+  top: 130vw;
+  border-radius: 20vw;
+}
+.katush {
+  position: absolute;
+  top: 19vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.depo {
+  position: absolute;
+  top: 19vw;
+  left: 187vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.box {
+  position: relative;
+  display: grid;
+  grid-gap: 15vw;
+  margin: 29vw;
+  width: 300vw;
+  height: 920vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  top: -102vw;
+}
+.box2 {
+  position: relative;
+  display: grid;
+  grid-gap: 15vw;
+  margin: 29vw;
+  width: 300vw;
+  height: 2700vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  top: -70vw;
+}
+.tabata {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  position: relative;
+  border-radius: 20vw;
+}
+.step {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  position: relative;
+  border-radius: 20vw;
+}
+.fit {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  position: relative;
+  border-radius: 20vw;
+}
+.sculpt {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 4/5;
+  position: relative;
+  border-radius: 20vw;
+}
+.ball {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 5/6;
+  position: relative;
+  border-radius: 20vw;
+}
+.trx {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 6/7;
+  position: relative;
+  border-radius: 20vw;
+}
+.pilates {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 7/8;
+  position: relative;
+  border-radius: 20vw;
+}
+.stretching {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 8/9;
+  position: relative;
+  border-radius: 20vw;
+}
+.zumba {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 9/10;
+  position: relative;
+  border-radius: 20vw;
+}
+.tabatatext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.steptext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.fittext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.sculpttext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.balltext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.trxtext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.pilatestext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.stretchingtext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.zumbatext {
+  position: relative;
+  top: 41vw;
+  left: 38vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 26vw;
+  white-space: nowrap;
+}
+.sport {
+  position: relative;
+  top: 1vw;
+  left: 66vw;
+  width: 230vw;
+  height: 259vw;
+}
+.sport2 {
+  position: relative;
+  top: 2vw;
+  left: 76vw;
+  width: 220vw;
+  height: 240vw;
+}
+.sport3 {
+  position: relative;
+  top: 7.7vw;
+  left: 84vw;
+  width: 220vw;
+  height: 240vw;
+}
+.sport4 {
+  position: relative;
+  top: 3vw;
+  left: 76vw;
+  width: 220vw;
+  height: 240vw;
+}
+.sport5 {
+  position: relative;
+  top: 3vw;
+  left: 20vw;
+  width: 265vw;
+  height: 267vw;
+}
+.sport6 {
+  position: relative;
+  top: 40vw;
+  left: 88vw;
+  width: 214vw;
+  height: 289vw;
+}
+.sport7 {
+  position: relative;
+  top: 2vw;
+  left: 43vw;
+  width: 276vw;
+  height: 269vw;
+}
+.sport8 {
+  position: relative;
+  top: 2vw;
+  left: 88vw;
+  width: 220vw;
+  height: 263vw;
+}
+.sport9 {
+  position: relative;
+  top: 6vw;
+  left: 76vw;
+  width: 220vw;
+  height: 266vw;
+}
+.circle2 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #fff;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circletabata {
+  position: relative;
+  top: 20vw;
+  left: 20vw;
+  width: 60vw;
+  height: 60vw;
+  background: #fff;
+  border-radius: 30vw;
+}
+.circleclick {
+  position: absolute;
+  top: 6922vw;
+  left: 207vw;
+  width: 55vw;
+  height: 55vw;
+  background: #fff;
+  border-radius: 50vw;
+}
+.arrowclick {
+  position: absolute;
+  top: 6922vw;
+  left: 219vw;
+  width: 31vw;
+  height: 55vw;
+  transform: rotate(180deg);
+}
+.arrowclick2 {
+  position: absolute;
+  top: 6922vw;
+  left: 281vw;
+  width: 31vw;
+  height: 55vw;
+}
+.circleclick2 {
+  position: absolute;
+  top: 6922vw;
+  left: 269vw;
+  width: 55vw;
+  height: 55vw;
+  background: #fff;
+  border-radius: 50vw;
+}
+.circle3 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #8CF104;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle4 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #fff;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle5 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #8CF104;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle6 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #fff;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle7 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #8CF104;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle8 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #fff;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle9 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #8CF104;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.circle10 {
+  position: absolute;
+  top: 190vw;
+  left: 38vw;
+  width: 60vw;
+  height: 60vw;
+  background: #fff;
+  border-radius: 30vw;
+  z-index: 1;
+}
+.arrow2 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow3 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow4 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow5 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow6 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow7 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow8 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow9 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.arrow10 {
+  position: absolute;
+  top: 210.6vw;
+  left: 48.5vw;
+  width: 40vw;
+  height: 20vw;
+  z-index: 1;
+}
+.benefits {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  position: relative;
+  border-radius: 20vw;
+}
+.directions {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  position: relative;
+  border-radius: 20vw;
+}
+.vehicle {
+  background-color: #FFFFFF;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  position: relative;
+  border-radius: 20vw;
+}
+.bar {
+  background-color: #8CF104;
+  grid-column: 1/3;
+  grid-row: 4/5;
+  position: relative;
+  border-radius: 20vw;
+}
+.icon {
+  position: relative;
+  top: 24vw;
+  left: 15vw;
+  width: 70vw;
+  height: 48vw;
+}
+.icon2 {
+  position: relative;
+  top: 24vw;
+  left: 15vw;
+  width: 70vw;
+  height: 48vw;
+}
+.icon3mob {
+  position: relative;
+  top: 24vw;
+  left: 15vw;
+  width: 70vw;
+  height: 48vw;
+}
+.icon3 {
+  display: none;
+}
+.icon4mob {
+  position: relative;
+  top: 24vw;
+  left: 15vw;
+  width: 70vw;
+  height: 48vw;
+}
+.geo {
+  position: relative;
+  top: 373vw;
+  left: 2vw;
+  width: 70vw;
+  height: 33vw;
+}
+.tel {
+  position: relative;
+  top: 377vw;
+  left: 5vw;
+  width: 62vw;
+  height: 27vw;
+}
+.tel2 {
+  position: relative;
+  top: 360vw;
+  left: 5vw;
+  width: 62vw;
+  height: 27vw;
+}
+.timerx {
+  position: relative;
+  top: 356vw;
+  left: 0vw;
+  width: 70vw;
+  height: 28vw;
+}
+.icon4 {
+  display: none;
+}
+.boxtitle {
+  position: relative;
+  top: 32vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  white-space: nowrap;
+}
+.boxtitle2 {
+  position: relative;
+  top: 32vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  white-space: nowrap;
+}
+.boxtitle3 {
+  position: relative;
+  top: 32vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  white-space: nowrap;
+}
+.boxtitle4 {
+  position: relative;
+  top: 32vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  white-space: nowrap;
+}
+.boxtext {
+  position: relative;
+  top: 39vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  white-space: nowrap;
+}
+.boxtext2 {
+  position: relative;
+  top: 39vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  white-space: nowrap;
+}
+.boxtext3 {
+  position: relative;
+  top: 39vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  white-space: nowrap;
+}
+.boxtext4 {
+  position: relative;
+  top: 39vw;
+  left: 22vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  white-space: nowrap;
+}
+.rowun {
+  font-family: "DrukCyrMedium";
+  font-size: 18vw;
+  margin-top: 6vw;
+  white-space: nowrap;
+  color: #000000;
+  width: 100%;
+  box-sizing: border-box;
+  animation: row 5s linear infinite;
+}
+@keyframes row {
+  0% {margin-left: 1%;}
+  100% {margin-left: 100%;}
+}
+.slogan {
+  position: relative;
+  top: -525vw;
+  left: 20vw;
+  line-height: 6vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 60vw;
+  text-decoration: none;
+  white-space: nowrap;
+  animation: shift 3s linear infinite;
+}
+@keyframes shift {
+ 0% {left: 20vw;}
+ 50% {left: 60vw;}
+ 100% {left: 20vw;}
+}
+}
+}

@@ -1,0 +1,19 @@
+@import url(https://db.onlinewebfonts.com/c/13ab13418f633c1b0516fed6e30bedbc?family=Suisse+Int%27l);
+@font-face {
+    font-family: "Suisse Int'l";
+    src: url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.eot");
+    src: url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.svg#Suisse Int'l")format("svg");
+}
+@font-face {
+    font-family: "DrukCyrMedium";
+    src: url("../fonts/DrukCyrMedium/DrukCyrMedium.eot");
+    src: url("../fonts/DrukCyrMedium/DrukCyrMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DrukCyrMedium/DrukCyrMedium.woff") format("woff"),
+    url("../fonts/DrukCyrMedium/DrukCyrMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
