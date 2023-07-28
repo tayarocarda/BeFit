@@ -26,19 +26,20 @@
 .menu {
   position: relative;
   top: 5vw;
-  left: 318vw;
+  left: 329vw;
   width: 33vw;
   height: 20vw;
 }
 .liner {
   position: relative;
   margin-top: 30vw;
-  width: 371vw;
+  width: 385%;
+  height: 300vw;
 }
 .girl {
   position: relative;
   top: -227vw;
-  width: 373vw;
+  width: 385vw;
   animation: logogo 3s linear infinite;
 }
 @keyframes logogo {
@@ -214,20 +215,20 @@
 }
 .try {
   position: relative;
-  top: -217.6vw;
-  left: 84.8vw;
+  top: -215.6vw;
+  left: 93.8vw;
   width: 15.5vw;
   height: 3.5vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 20vw;
+  font-size: 18vw;
   text-decoration: none;
   white-space: nowrap;
 }
 .containerun {
   position: absolute;
-  width: 370vw;
+  width: 385vw;
   height: 35vw;
   background: #fff;;
   margin-top: -205vw;
@@ -354,7 +355,7 @@
 }
 .mimik {
   position: absolute;
-  top: 8754vw;
+  top: 8783vw;
 }
 .switch1 {
   background-color: #fff;
@@ -547,8 +548,7 @@
   left: 56vw;
   width: 169vw;
   height: 40vw;
-  border-radius: 20vw;
-  border: 1vw solid #fff;
+  border-radius: 40vw;
   background-color: #fff;
   font-family: "Suisse Int'l";
   font-weight: bold;
@@ -720,7 +720,7 @@
 }
 .oformit {
   position: relative;
-  top: 277.8vw;
+  top: 277vw;
   left: -60vw;
   color: #000000;
   font-family: "Suisse Int'l";
@@ -799,35 +799,35 @@ a {
 .month {
   position: relative;
   top: 199.5vw;
-  left: -83vw;
+  left: -81vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 12vw;
+  font-size: 11vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
 }
 .month6 {
   position: relative;
-  top: 188vw;
-  left: 2vw;
+  top: 189vw;
+  left: 2.5vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 12vw;
+  font-size: 11vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
 }
 .month12 {
   position: absolute;
-  top: 288vw;
-  left: 201.5vw;
+  top: 289vw;
+  left: 203vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 12vw;
+  font-size: 11vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
@@ -976,6 +976,9 @@ a {
   text-decoration: none;
   white-space: nowrap;
 }
+[for="Хочу"] {
+  color: #000000;
+}
 [for="rule"] {
   display: none;
 }
@@ -1048,7 +1051,7 @@ a {
 .contme {
   position: relative;
   top: 1747vw;
-  left: 158vw;
+  left: 192vw;
   color: #fff;
   font-family: "Suisse Int'l";
   font-weight: normal;
@@ -1351,7 +1354,7 @@ a {
 }
 .karlik {
   position: absolute;
-  top: 9088vw;
+  top: 9114vw;
 }
 .stars {
   position: relative;
@@ -1708,7 +1711,7 @@ a {
 }
 .circleclick {
   position: absolute;
-  top: 6922vw;
+  top: 6956vw;
   left: 207vw;
   width: 55vw;
   height: 55vw;
@@ -1717,7 +1720,7 @@ a {
 }
 .arrowclick {
   position: absolute;
-  top: 6922vw;
+  top: 6957vw;
   left: 219vw;
   width: 31vw;
   height: 55vw;
@@ -1725,14 +1728,14 @@ a {
 }
 .arrowclick2 {
   position: absolute;
-  top: 6922vw;
+  top: 6957vw;
   left: 281vw;
   width: 31vw;
   height: 55vw;
 }
 .circleclick2 {
   position: absolute;
-  top: 6922vw;
+  top: 6957vw;
   left: 269vw;
   width: 55vw;
   height: 55vw;
@@ -2077,7 +2080,7 @@ a {
 }
 .slogan {
   position: relative;
-  top: -525vw;
+  top: -546vw;
   left: 20vw;
   line-height: 6vw;
   color: #fff;
