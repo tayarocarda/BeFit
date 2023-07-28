@@ -8,20 +8,53 @@
   nav > .menu-items > a:nth-child(1) {
     position: relative;
     line-height: 2vw;
-    top: 30vw;
-    left: 20vw;
+    top: 31vw;
+    left: 23vw;
     color: #8CF104;
     font-family: "DrukCyrMedium";
     font-size: 35vw;
     text-decoration: none;
 }
-.befitt {
+nav > .menu-items2 > a:nth-child(1) {
   position: relative;
-  top: 1776vw;
-  left: 32vw;
-  color: #8CF104;
+  line-height: 2vw;
+  top: -24vw;
+  left: 3vw;
+  color: #000000;
+  font-family: "DrukCyrMedium";
+  font-size: 45vw;
+  text-decoration: none;
+}
+nav > .menu-items2 {
+   width: 300vw;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   justify-content: space-between;
+   margin-left: 18vw;
+   z-index: 1;
+   top: 102vw;
+}
+nav > .menu-items2 > a {
+    margin: 10vw;
+    color: #000;
+    font-family: "Suisse Int'l";
+    font-style: normal;
+    font-size: 22vw;
+    text-decoration: none;
+}
+.menutex {
+  position: relative;
+  line-height: 2vw;
+  top: 44vw;
+  left: 28vw;
+  color: #000000;
   font-family: "DrukCyrMedium";
   font-size: 35vw;
+  text-decoration: none;
+}
+.befitt {
+ display: none;
 }
 .menu {
   position: relative;
@@ -50,7 +83,7 @@
 .slogan2 {
   position: relative;
   top: -245vw;
-  left: 104vw;
+  left: 114vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -62,14 +95,14 @@
   animation: shift2 3s linear infinite;
 }
 @keyframes shift2 {
-  0% {left: 104vw;}
-  50% {left: 74vw;}
-  100% {left: 104vw;}
+  0% {left: 114vw;}
+  50% {left: 84vw;}
+  100% {left: 114vw;}
 }
 .button {
   position: relative;
   top: -183vw;
-  left: 56vw;
+  left: 63vw;
   width: 262vw;
   height: 50vw;
   background: #8CF104;
@@ -216,13 +249,13 @@
 .try {
   position: relative;
   top: -215.6vw;
-  left: 93.8vw;
+  left: 103.5vw;
   width: 15.5vw;
   height: 3.5vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 18vw;
+  font-size: 17vw;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -255,8 +288,8 @@
 }
 #why {
   position: relative;
-  top: -127vw;
-  left: 29vw;
+  top: -101vw;
+  left: 45vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -268,8 +301,8 @@
 }
 #variants {
   position: relative;
-  top: -82vw;
-  left: 29vw;
+  top: -73vw;
+  left: 43vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -282,7 +315,7 @@
 #timetable {
   position: relative;
   top: 20vw;
-  left: 29vw;
+  left: 40vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -295,7 +328,7 @@
 #abonement {
   position: relative;
   top: 180vw;
-  left: 29vw;
+  left: 46vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -308,7 +341,7 @@
 #feedback {
   position: relative;
   top: 288vw;
-  left: 29vw;
+  left: 46vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -321,7 +354,7 @@
 .questions {
   position: relative;
   top: 420vw;
-  left: 29vw;
+  left: 46vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -333,8 +366,8 @@
 }
 #contacts {
   position: relative;
-  top: 946vw;
-  left: 29vw;
+  top: 941vw;
+  left: 47vw;
   line-height: 6vw;
   width: 15.5vw;
   height: 3.5vw;
@@ -349,13 +382,14 @@
   position: relative;
   border-radius: 20vw;
   top: 69vw;
-  left: 31vw;
+  left: 41vw;
   width: 295vw;
   height: 67vw;
 }
 .mimik {
   position: absolute;
-  top: 8783vw;
+  top: 8818vw;
+  margin-left: 3vw;
 }
 .switch1 {
   background-color: #fff;
@@ -554,6 +588,73 @@
   font-weight: bold;
   font-size: 18vw;
   cursor: pointer;
+}
+.wantmep {
+  position: relative;
+  top: -8961vw;
+  left: 71vw;
+  width: 169vw;
+  height: 40vw;
+  border-radius: 40vw;
+  background-color: #8CF104;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  cursor: pointer;
+}
+.wantme {
+  position: relative;
+  top: -3084vw;
+  left: 71vw;
+  width: 169vw;
+  height: 40vw;
+  border-radius: 40vw;
+  background-color: #8CF104;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 18vw;
+  cursor: pointer;
+}
+.close {
+  position: relative;
+  top: -9038vw;
+  left: 292vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 40vw;
+  background-color: #000000;
+}
+.closer {
+  position: relative;
+  top: -3191vw;
+  left: 292vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 40vw;
+  background-color: #000000;
+}
+.closecircle {
+  position: relative;
+  top: -9008vw;
+  left: 292vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 40vw;
+  background-color: #000000;
+}
+.cross {
+  position: relative;
+  top: -9068vw;
+  left: 299vw;
+  width: 16vw;
+  height: 30vw;
+}
+.crosser {
+  position: relative;
+  top: -3221vw;
+  left: 299vw;
+  width: 16vw;
+  height: 30vw;
 }
 .oformbut2 {
   position: relative;
@@ -773,6 +874,16 @@
   font-size: 15vw;
   text-decoration: none;
 }
+.hochu {
+  position: absolute;
+  top: 240vw;
+  left: 121vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 17vw;
+  text-decoration: none;
+}
 .zoformitt2 {
   position: absolute;
   top: 570vw;
@@ -803,7 +914,7 @@ a {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 11vw;
+  font-size: 10.6vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
@@ -815,19 +926,19 @@ a {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 11vw;
+  font-size: 10.6vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
 }
 .month12 {
   position: absolute;
-  top: 289vw;
-  left: 203vw;
+  top: 288.5vw;
+  left: 202.6vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 11vw;
+  font-size: 10.6vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
@@ -967,7 +1078,7 @@ a {
 }
 [for="rulec"] {
   position: relative;
-  top: -301vw;
+  top: -302vw;
   left: 56vw;
   color: #000000;
   font-family: "Suisse Int'l";
@@ -980,11 +1091,19 @@ a {
   color: #000000;
 }
 [for="rule"] {
-  display: none;
-}
-.imya {
   position: relative;
-  top: -424vw;
+  top: -2995vw;
+  left: 72vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 11.5vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.imyay {
+  position: relative;
+  top: -412vw;
   left: 55vw;
   color: #000000;
   font-family: "Suisse Int'l";
@@ -993,6 +1112,14 @@ a {
   text-decoration: none;
   white-space: nowrap;
 }
+.fillme3 {
+  position: absolute;
+  top: 9155vw;
+}
+/* .pillme {
+  position: absolute;
+  top: 20vw;
+} */
 .kat {
   position: absolute;
   top: 403vw;
@@ -1037,26 +1164,8 @@ a {
   text-decoration: none;
   white-space: nowrap;
 }
-.teleph {
-  position: relative;
-  top: -395vw;
-  left: 55vw;
-  color: #000000;
-  font-family: "Suisse Int'l";
-  font-weight: normal;
-  font-size: 18vw;
-  text-decoration: none;
-  white-space: nowrap;
-}
 .contme {
-  position: relative;
-  top: 1747vw;
-  left: 192vw;
-  color: #fff;
-  font-family: "Suisse Int'l";
-  font-weight: normal;
-  font-size: 14vw;
-  white-space: nowrap;
+  display: none;
 }
 .nameme {
   position: relative;
@@ -1083,8 +1192,22 @@ a {
   font-weight: normal;
   font-size: 14vw;
   color: #000000;
-  top: -381vw;
-  left: 53.5vw;
+  top: -3077vw;
+  left: 71.5vw;
+}
+.phonemey {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -380vw;
+  left: 52.5vw;
 }
 .monthtext2 {
   position: absolute;
@@ -1227,7 +1350,7 @@ a {
 .time {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 377vw;
   top: 97vw;
@@ -1265,13 +1388,13 @@ a {
   position: relative;
   top: -342vw;
   left: 23vw;
-  width: 248vw;
+  width: 243vw;
   height: 274.5vw;
 }
 .abon {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 485vw;
   top: 224vw;
@@ -1280,7 +1403,7 @@ a {
 .feed1 {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 630vw;
   top: 335vw;
@@ -1289,7 +1412,7 @@ a {
 .feed4 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 630vw;
   top: 335vw;
@@ -1298,7 +1421,7 @@ a {
 .feed2 {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 642vw;
   top: 353vw;
@@ -1307,7 +1430,7 @@ a {
 .feed5 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 642vw;
   top: 353vw;
@@ -1316,7 +1439,7 @@ a {
 .feed3 {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 642vw;
   top: 370vw;
@@ -1325,7 +1448,7 @@ a {
 .feed6 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 642vw;
   top: 370vw;
@@ -1343,18 +1466,38 @@ a {
   top: -45vw;
   border-radius: 20vw;
 }
-.request2 {
+.podlogkap {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 45vw;
   width: 295vw;
+  height: 430vw;
+  top: -8567vw;
+  border-radius: 20vw;
+}
+.podlogka2{
+  position: relative;
+  background-color: #fff;
+  left: 45vw;
+  width: 295vw;
+  height: 483vw;
+  top: -2667vw;
+  border-radius: 20vw;
+  border: 1vw solid #000000;
+}
+.request2 {
+  position: absolute;
+  background-color: #fff;
+  margin-left: 38vw;
+  width: 288vw;
   height: 764vw;
   top: 820vw;
   border-radius: 20vw;
 }
 .karlik {
   position: absolute;
-  top: 9114vw;
+  top: 9153vw;
+  left: 12vw;
 }
 .stars {
   position: relative;
@@ -1373,7 +1516,7 @@ a {
 .abon2 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 485vw;
   top: 242vw;
@@ -1382,7 +1525,7 @@ a {
 .time4 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 377vw;
   top: 97vw;
@@ -1391,16 +1534,220 @@ a {
 .time2 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 377vw;
   top: 113vw;
   border-radius: 20vw;
 }
+.napr {
+  position: absolute;
+  background-color: #8CF104;
+  left: 9vw;
+  width: 81vw;
+  height: 106vw;
+  top: 29vw;
+  border-radius: 10vw;
+}
+.naprfit {
+  position: absolute;
+  background-color: #8CF104;
+  left: 9vw;
+  width: 81vw;
+  height: 89vw;
+  top: 29.2vw;
+  border-radius: 10vw;
+}
+.naprfitit {
+  position: absolute;
+  background-color: #8CF104;
+  left: 9vw;
+  width: 81vw;
+  height: 89vw;
+  top: 29.2vw;
+  border-radius: 10vw;
+}
+.napr2 {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 133vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2zum {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 140vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2stretch {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 153vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2s {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 133vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2sf {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 133vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2sfbn {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 97vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2sfu {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 110vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2suh {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 116vw;
+  top: 105vw;
+  border-radius: 10vw;
+}
+.napr2fit {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 133vw;
+  top: 91vw;
+  border-radius: 10vw;
+}
+.napr2t {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 110vw;
+  top: 107vw;
+  border-radius: 10vw;
+}
+.napr2to {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 110vw;
+  top: 90vw;
+  border-radius: 10vw;
+}
+.napr2top {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 81vw;
+  height: 114vw;
+  top: 90vw;
+  border-radius: 10vw;
+}
+.sportik {
+  position: relative;
+  left: 0vw;
+  width: 77vw;
+  height: 133vw;
+  top: -12.7vw;
+}
+.sportikzum {
+  position: relative;
+  left: 4vw;
+  width: 77vw;
+  height: 133vw;
+  top: -5.4vw;
+}
+.befittabt {
+  display: none;
+}
+.sportikstretch {
+  position: relative;
+  left: 2vw;
+  width: 77vw;
+  height: 133vw;
+  top: -6.5vw;
+}
+.trxtikmob {
+  position: relative;
+  left: 1vw;
+  width: 78vw;
+  height: 62vw;
+  top: 27.3vw;
+}
+.trxtik {
+  display: none;
+}
+.sportikruc {
+  position: relative;
+  left: 0vw;
+  width: 77vw;
+  height: 133vw;
+  top: -8.7vw;
+}
+.sportikfit {
+  position: relative;
+  left: -2vw;
+  width: 87vw;
+  height: 133vw;
+  top: 3.3vw;
+}
+.sportik2 {
+  position: relative;
+  left: 1vw;
+  width: 81vw;
+  height: 133vw;
+  top: -10.7vw;
+}
+.sportik3 {
+  position: relative;
+  left: 2vw;
+  width: 75vw;
+  height: 80vw;
+  top: 9.1vw;
+}
+.sportik7 {
+  position: relative;
+  left: -3vw;
+  width: 84vw;
+  height: 97vw;
+  top: 9.1vw;
+}
 .time5 {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 377vw;
   top: 113vw;
@@ -1409,7 +1756,7 @@ a {
 .time3 {
   position: relative;
   background-color: #fff;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 392vw;
   top: 130vw;
@@ -1418,7 +1765,7 @@ a {
 .time6 {
   position: relative;
   background-color: #8CF104;
-  left: 31vw;
+  left: 46vw;
   width: 295vw;
   height: 392vw;
   top: 130vw;
@@ -1456,18 +1803,59 @@ a {
   position: relative;
   display: grid;
   grid-gap: 15vw;
-  margin: 29vw;
+  margin: 42vw;
   width: 300vw;
   height: 920vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   top: -102vw;
 }
+.recmen {
+  position: absolute;
+  width: 404vw;
+  height: 438vw;
+  background-color: #8CF104;
+  top: -2vw;
+}
+.crosscircle {
+  position: absolute;
+  top: 30vw;
+  left: 352vw;
+  width: 20vw;
+  height: 20vw;
+}
+nav > .menu-items > a:nth-child(2) {
+  display: none;
+}
+nav > .menu-items > a:nth-child(3) {
+  display: none;
+}
+nav > .menu-items > a:nth-child(4) {
+  display: none;
+}
+nav > .menu-items > a:nth-child(5) {
+  display: none;
+}
+nav > .menu-items > a:nth-child(6) {
+  display: none;
+}
+nav > .menu-items > a:nth-child(7) {
+  display: none;
+}
+.closecircle {
+  position: absolute;
+  top: 20vw;
+  left: 342vw;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 30vw;
+  background-color: #000000;
+}
 .box2 {
   position: relative;
   display: grid;
   grid-gap: 15vw;
-  margin: 29vw;
+  margin: 42vw;
   width: 300vw;
   height: 2700vw;
   grid-template-columns: 1fr 1fr;
@@ -1702,16 +2090,123 @@ a {
 }
 .circletabata {
   position: relative;
-  top: 20vw;
-  left: 20.1vw;
-  width: 60vw;
-  height: 60vw;
+  top: 9vw;
+  left: 10vw;
+  width: 15vw;
+  height: 15vw;
   background: #fff;
   border-radius: 30vw;
 }
+.circletab {
+  position: relative;
+  top: -2.5vw;
+  left: 53vw;
+  width: 8vw;
+  height: 8vw;
+  background: #fff;
+  border-radius: 30vw;
+}
+.arrowtaber {
+  position: relative;
+  top: -10.5vw;
+  left: 54.5vw;
+  width: 5vw;
+  height: 8vw;
+  border-radius: 30vw;
+}
+.tabatatextik {
+  position: relative;
+  top: -18vw;
+  left: 29vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #fff;
+  font-family: "DrukCyrMedium";
+  font-size: 15.5vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.askme {
+  position: relative;
+  top: 14vw;
+  left: 6vw;
+  line-height: 6vw;
+  width: 15.5vw;
+  height: 3.5vw;
+  color: #000;
+  font-family: "DrukCyrMedium";
+  font-size: 10vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.askop {
+  display: none;
+}
+.askopmob {
+  position: relative;
+  top: 22vw;
+  left: 6vw;
+  line-height: 6vw;
+  color: #000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 4.2vw;
+  white-space: nowrap;
+}
+.buttontab {
+    position: relative;
+    top: 26vw;
+    left: 6vw;
+    width: 68vw;
+    height: 13vw;
+    background: #8CF104;
+    border-radius: 20vw;
+    cursor: pointer;
+}
+.trytab {
+    position: relative;
+    top: 4.2vw;
+    left: 5.5vw;
+    color: #000000;
+    font-family: "Suisse Int'l";
+    font-weight: bold;
+    font-size: 5vw;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.befittab {
+  display: none;
+}
+.kiki {
+  display: none;
+}
+.kikis {
+  display: none;
+}
+.kikisf {
+  display: none;
+}
+.kiki2 {
+  display: none;
+}
+.kikis2 {
+  display: none;
+}
+.kikisf2 {
+  display: none;
+}
+.arrowtab {
+  position: relative;
+  top: -6vw;
+  left: 13vw;
+  width: 9vw;
+  height: 15vw;
+  transform: rotate(180deg);
+}
 .circleclick {
   position: absolute;
-  top: 6956vw;
+  top: 6996vw;
   left: 207vw;
   width: 55vw;
   height: 55vw;
@@ -1720,7 +2215,7 @@ a {
 }
 .arrowclick {
   position: absolute;
-  top: 6957vw;
+  top: 6997vw;
   left: 219vw;
   width: 31vw;
   height: 55vw;
@@ -1728,14 +2223,14 @@ a {
 }
 .arrowclick2 {
   position: absolute;
-  top: 6957vw;
+  top: 6996vw;
   left: 281vw;
   width: 31vw;
   height: 55vw;
 }
 .circleclick2 {
   position: absolute;
-  top: 6957vw;
+  top: 6996vw;
   left: 269vw;
   width: 55vw;
   height: 55vw;
@@ -1994,6 +2489,150 @@ a {
   font-size: 20vw;
   white-space: nowrap;
 }
+.gettextp {
+  position: relative;
+  top: -8952vw;
+  left: 72vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  white-space: nowrap;
+}
+.gettext {
+  position: relative;
+  top: -3100vw;
+  left: 72vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 20vw;
+  white-space: nowrap;
+}
+.imya {
+  position: relative;
+  top: -3127vw;
+  left: 71vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.teleph {
+  position: relative;
+  top: -3089vw;
+  left: 70vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.telephy {
+  position: relative;
+  top: -388vw;
+  left: -35vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 18vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.imyap {
+  position: relative;
+  top: -8992vw;
+  left: 71vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.namemep {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -8979vw;
+  left: 71.5vw;
+}
+.nameme {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -3115vw;
+  left: 71.5vw;
+}
+.namemey {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -402vw;
+  left: 55.5vw;
+}
+.phonemep {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 2vw 12vw;
+  border: 1vw solid #000000;
+  width: 217vw;
+  height: 30vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 14vw;
+  color: #000000;
+  top: -8947vw;
+  left: 71.5vw;
+}
+.telephp {
+  position: relative;
+  top: -8959vw;
+  left: 70vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
 .boxtitle2 {
   position: relative;
   top: 32vw;
@@ -2022,6 +2661,16 @@ a {
   font-family: "Suisse Int'l";
   font-weight: bold;
   font-size: 20vw;
+  white-space: nowrap;
+}
+[for="rulep"] {
+  position: relative;
+  top: -8870vw;
+  left: 67vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 12vw;
   white-space: nowrap;
 }
 .boxtext {

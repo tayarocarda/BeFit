@@ -5,6 +5,12 @@ $(document).ready(function() {
  $(".buttontab").click(function() {
    $(".nini").removeClass("none");
 });
+$(".menu").click(function() {
+  $(".nunu").removeClass("none");
+});
+$(".closeme").click(function() {
+  $(".nunu").addClass("none");
+});
 $(".hikhik").click(function() {
   $(".nini").addClass("none");
 });
