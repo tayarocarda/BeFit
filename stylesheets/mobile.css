@@ -595,7 +595,7 @@ nav > .menu-items2 > a {
   left: 71vw;
   width: 169vw;
   height: 40vw;
-  border-radius: 40vw;
+  border-radius: 80vw;
   background-color: #8CF104;
   font-family: "Suisse Int'l";
   font-weight: bold;
@@ -876,7 +876,7 @@ nav > .menu-items2 > a {
 }
 .hochu {
   position: absolute;
-  top: 240vw;
+  top: 241vw;
   left: 121vw;
   color: #000000;
   font-family: "Suisse Int'l";
@@ -1083,7 +1083,7 @@ a {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: normal;
-  font-size: 13vw;
+  font-size: 11.5vw;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -1812,7 +1812,7 @@ a {
 }
 .recmen {
   position: absolute;
-  width: 404vw;
+  width: 385vw;
   height: 438vw;
   background-color: #8CF104;
   top: -2vw;
@@ -1820,7 +1820,7 @@ a {
 .crosscircle {
   position: absolute;
   top: 30vw;
-  left: 352vw;
+  left: 335vw;
   width: 20vw;
   height: 20vw;
 }
@@ -1845,7 +1845,7 @@ nav > .menu-items > a:nth-child(7) {
 .closecircle {
   position: absolute;
   top: 20vw;
-  left: 342vw;
+  left: 325vw;
   width: 40vw;
   height: 40vw;
   border-radius: 30vw;
@@ -2167,11 +2167,11 @@ nav > .menu-items > a:nth-child(7) {
 .trytab {
     position: relative;
     top: 4.2vw;
-    left: 5.5vw;
+    left: 8.5vw;
     color: #000000;
     font-family: "Suisse Int'l";
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 4vw;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -2496,7 +2496,7 @@ nav > .menu-items > a:nth-child(7) {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 20vw;
+  font-size: 18vw;
   white-space: nowrap;
 }
 .gettext {
@@ -2552,7 +2552,7 @@ nav > .menu-items > a:nth-child(7) {
 .imyap {
   position: relative;
   top: -8992vw;
-  left: 71vw;
+  left: 57vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
@@ -2670,7 +2670,7 @@ nav > .menu-items > a:nth-child(7) {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: normal;
-  font-size: 12vw;
+  font-size: 11.5vw;
   white-space: nowrap;
 }
 .boxtext {
@@ -2680,7 +2680,7 @@ nav > .menu-items > a:nth-child(7) {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: normal;
-  font-size: 14vw;
+  font-size: 12vw;
   white-space: nowrap;
 }
 .boxtext2 {
