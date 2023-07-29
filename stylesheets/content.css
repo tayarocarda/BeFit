@@ -8,10 +8,13 @@ body {
 .menu {
   display: none;
 }
+#menu-items {
+  scroll-behavior: smooth;
+}
 .menu-items2 {
   display: none;
 }
-nav > .menu-items {
+nav > #menu-items {
    width: 90vw;
    display: flex;
    position: relative;
@@ -20,7 +23,7 @@ nav > .menu-items {
    margin-left: 4vw;
    z-index: 1;
 }
-nav > .menu-items > a {
+nav > #menu-items > a {
     margin-top: 3vw;
     line-height: 2vw;
     color: #fff;
@@ -29,10 +32,10 @@ nav > .menu-items > a {
     font-size: 1.5vw;
     text-decoration: none;
 }
-nav > .menu-items > a:hover {
+nav > #menu-items > a:hover {
     color: #8CF104;
 }
-nav > .menu-items > a:nth-child(1) {
+nav > #menu-items > a:nth-child(1) {
     line-height: 2vw;
     width: 15.5vw;
     height: 3.5vw;
@@ -116,7 +119,7 @@ nav > .menu-items > a:nth-child(1) {
  50% {top: -83vw;}
  100% {top: -88vw;}
 }
-.slogan {
+#slogan {
   position: relative;
   top: -142vw;
   left: 4vw;
@@ -130,7 +133,15 @@ nav > .menu-items > a:nth-child(1) {
   white-space: nowrap;
   animation: shift 3s linear infinite;
 }
-.slogan:hover {
+.high {
+  scroll-behavior: smooth;
+	position: fixed;
+  width: 10vw;
+  height: 10vw;
+	right: 2vw;
+	bottom: 2vw;
+}
+#slogan:hover {
   animation-play-state: paused;
   transition: all .5s ease-out;
  }
@@ -163,6 +174,7 @@ nav > .menu-items > a:nth-child(1) {
   100% {left: 55vw;}
 }
 #why {
+  scroll-behavior: smooth;
   position: relative;
   top: -103vw;
   left: 7vw;
@@ -176,6 +188,7 @@ nav > .menu-items > a:nth-child(1) {
   white-space: nowrap;
 }
 #variants {
+  scroll-behavior: smooth;
   position: relative;
   top: -103vw;
   left: 7vw;
@@ -215,6 +228,7 @@ nav > .menu-items > a:nth-child(1) {
   white-space: nowrap;
 }
 #timetable {
+  scroll-behavior: smooth;
   position: relative;
   top: 85vw;
   left: 7vw;
@@ -228,6 +242,7 @@ nav > .menu-items > a:nth-child(1) {
   white-space: nowrap;
 }
 #abonement {
+  scroll-behavior: smooth;
   position: relative;
   top: 107vw;
   left: 7vw;
@@ -254,6 +269,7 @@ nav > .menu-items > a:nth-child(1) {
   white-space: nowrap;
 }
 #contacts {
+  scroll-behavior: smooth;
   position: relative;
   top: 462vw;
   left: 7vw;
@@ -267,6 +283,7 @@ nav > .menu-items > a:nth-child(1) {
   white-space: nowrap;
 }
 #feedback {
+  scroll-behavior: smooth;
   position: relative;
   top: 123vw;
   left: 7vw;
@@ -1210,6 +1227,16 @@ nav > .menu-items > a:nth-child(1) {
   top: 259vw;
   left: 14.5vw;
 }
+.imyapp {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+  top: 259vw;
+  left: 14.5vw;
+}
 .consult {
   position: relative;
   color: #000000;
@@ -1250,6 +1277,15 @@ nav > .menu-items > a:nth-child(1) {
   top: 265.5vw;
   left: 14.5vw;
 }
+.telephpp {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  top: 265.5vw;
+  left: 14.5vw;
+}
 .nameme {
   position: relative;
   border-radius: 2vw;;
@@ -1279,6 +1315,20 @@ nav > .menu-items > a:nth-child(1) {
   left: 14.5vw;
 }
 .namemep {
+  position: relative;
+  border-radius: 2vw;;
+  padding: 5px 20px;
+  border: 2px solid #000000;
+  width: 31vw;
+  height: 3.5vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #000000;
+  top: 259vw;
+  left: 14.5vw;
+}
+.namemepp {
   position: relative;
   border-radius: 2vw;;
   padding: 5px 20px;
@@ -1334,6 +1384,20 @@ nav > .menu-items > a:nth-child(1) {
   top: 266.8vw;
   left: 14.5vw;
 }
+.phonemepp {
+  position: relative;
+  border-radius: 2vw;;
+  padding: 5px 15px;
+  border: 2px solid #000000;
+  width: 31vw;
+  height: 3.5vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #000000;
+  top: 266.8vw;
+  left: 14.5vw;
+}
 [for="rule"]{
   position: relative;
   font-family: "Suisse Int'l";
@@ -1356,8 +1420,19 @@ nav > .menu-items > a:nth-child(1) {
   top: 279.7vw;
   left: 14.5vw;
 }
+[for="rulepp"]{
+  position: relative;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.25vw;
+  color: #000000;
+  width: 30vw;
+  display: block;
+  top: 279vw;
+  left: 14.5vw;
+}
 [for="rulec"]{
-  display: none;
+ display: none;
 }
 .container {
   position: relative;
@@ -1386,7 +1461,35 @@ nav > .menu-items > a:nth-child(1) {
   font-size: 1.8vw;
   cursor: pointer;
 }
-.wantmep {
+#wantmep {
+  position: relative;
+  top: 269.5vw;
+  left: 14.5vw;
+  width: 22vw;
+  height: 5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  border: none;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+.wantmepp {
+  position: relative;
+  top: 269.5vw;
+  left: 14.5vw;
+  width: 22vw;
+  height: 5vw;
+  background: #8CF104;
+  border-radius: 3vw;
+  border: none;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+.wantmepps {
   position: relative;
   top: 269.5vw;
   left: 14.5vw;

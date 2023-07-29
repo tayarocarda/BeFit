@@ -5,7 +5,7 @@
   .none {
     display: none;
   }
-  nav > .menu-items > a:nth-child(1) {
+  nav > #menu-items > a:nth-child(1) {
     position: relative;
     line-height: 2vw;
     top: 31vw;
@@ -15,7 +15,7 @@
     font-size: 35vw;
     text-decoration: none;
 }
-nav > .menu-items2 > a:nth-child(1) {
+nav > #menu-items2 > a:nth-child(1) {
   position: relative;
   line-height: 2vw;
   top: -24vw;
@@ -25,7 +25,7 @@ nav > .menu-items2 > a:nth-child(1) {
   font-size: 45vw;
   text-decoration: none;
 }
-nav > .menu-items2 {
+nav > #menu-items2 {
    width: 300vw;
    display: flex;
    flex-direction: column;
@@ -35,13 +35,24 @@ nav > .menu-items2 {
    z-index: 1;
    top: 102vw;
 }
-nav > .menu-items2 > a {
+.high {
+  scroll-behavior: smooth;
+	position: fixed;
+  width: 80vw;
+  height: 80vw;
+	right: 15vw;
+	bottom: 15vw;
+}
+nav > #menu-items2 > a {
     margin: 10vw;
     color: #000;
     font-family: "Suisse Int'l";
     font-style: normal;
     font-size: 22vw;
     text-decoration: none;
+}
+#menu-items {
+  scroll-behavior: smooth;
 }
 .menutex {
   position: relative;
@@ -255,7 +266,7 @@ nav > .menu-items2 > a {
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
-  font-size: 17vw;
+  font-size: 16vw;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -287,6 +298,7 @@ nav > .menu-items2 > a {
   display: none;
 }
 #why {
+  scroll-behavior: smooth;
   position: relative;
   top: -101vw;
   left: 45vw;
@@ -300,6 +312,7 @@ nav > .menu-items2 > a {
   white-space: nowrap;
 }
 #variants {
+  scroll-behavior: smooth;
   position: relative;
   top: -73vw;
   left: 43vw;
@@ -313,6 +326,7 @@ nav > .menu-items2 > a {
   white-space: nowrap;
 }
 #timetable {
+  scroll-behavior: smooth;
   position: relative;
   top: 20vw;
   left: 40vw;
@@ -326,6 +340,7 @@ nav > .menu-items2 > a {
   white-space: nowrap;
 }
 #abonement {
+  scroll-behavior: smooth;
   position: relative;
   top: 180vw;
   left: 46vw;
@@ -339,6 +354,7 @@ nav > .menu-items2 > a {
   white-space: nowrap;
 }
 #feedback {
+  scroll-behavior: smooth;
   position: relative;
   top: 288vw;
   left: 46vw;
@@ -365,6 +381,7 @@ nav > .menu-items2 > a {
   white-space: nowrap;
 }
 #contacts {
+  scroll-behavior: smooth;
   position: relative;
   top: 941vw;
   left: 47vw;
@@ -589,7 +606,7 @@ nav > .menu-items2 > a {
   font-size: 18vw;
   cursor: pointer;
 }
-.wantmep {
+#wantmep {
   position: relative;
   top: -8961vw;
   left: 71vw;
@@ -602,7 +619,20 @@ nav > .menu-items2 > a {
   font-size: 18vw;
   cursor: pointer;
 }
-.wantme {
+.wantmepp {
+  position: relative;
+  top: -140vw;
+  left: 16.5vw;
+  width: 48vw;
+  height: 12vw;
+  border-radius: 30vw;
+  background-color: #8CF104;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 4vw;
+  cursor: pointer;
+}
+#wantme {
   position: relative;
   top: -3084vw;
   left: 71vw;
@@ -621,6 +651,15 @@ nav > .menu-items2 > a {
   left: 292vw;
   width: 30vw;
   height: 30vw;
+  border-radius: 40vw;
+  background-color: #000000;
+}
+.closemap {
+  position: relative;
+  top: -159vw;
+  left: 75vw;
+  width: 10vw;
+  height: 10vw;
   border-radius: 40vw;
   background-color: #000000;
 }
@@ -648,6 +687,18 @@ nav > .menu-items2 > a {
   left: 299vw;
   width: 16vw;
   height: 30vw;
+}
+.crossmap {
+  position: relative;
+  top: -167vw;
+  left: 77.4vw;
+  width: 5vw;
+  height: 6vw;
+}
+.nini {
+  position: relative;
+  top: -12vw;
+  height: 10vw;
 }
 .crosser {
   position: relative;
@@ -1094,15 +1145,7 @@ a {
   color: #000000;
 }
 [for="rule"] {
-  position: relative;
-  top: -2995vw;
-  left: 72vw;
-  color: #000000;
-  font-family: "Suisse Int'l";
-  font-weight: normal;
-  font-size: 11.5vw;
-  text-decoration: none;
-  white-space: nowrap;
+  display: none;
 }
 .imyay {
   position: relative;
@@ -1117,7 +1160,7 @@ a {
 }
 .fillme3 {
   position: absolute;
-  top: 9155vw;
+  top: 9154vw;
 }
 /* .pillme {
   position: absolute;
@@ -1478,6 +1521,25 @@ a {
   top: -8567vw;
   border-radius: 20vw;
 }
+.podlogkapt {
+  position: relative;
+  background-color: #fff;
+  left: 9vw;
+  width: 80vw;
+  height: 132vw;
+  top: -16vw;
+  border-radius: 10vw;
+  border: 0.5vw solid black;
+}
+.podlogkap6 {
+  position: relative;
+  background-color: #fff;
+  left: 45vw;
+  width: 295vw;
+  height: 430vw;
+  top: -8567vw;
+  border-radius: 20vw;
+}
 .podlogka2{
   position: relative;
   background-color: #fff;
@@ -1827,22 +1889,22 @@ a {
   width: 20vw;
   height: 20vw;
 }
-nav > .menu-items > a:nth-child(2) {
+nav > #menu-items > a:nth-child(2) {
   display: none;
 }
-nav > .menu-items > a:nth-child(3) {
+nav > #menu-items > a:nth-child(3) {
   display: none;
 }
-nav > .menu-items > a:nth-child(4) {
+nav > #menu-items > a:nth-child(4) {
   display: none;
 }
-nav > .menu-items > a:nth-child(5) {
+nav > #menu-items > a:nth-child(5) {
   display: none;
 }
-nav > .menu-items > a:nth-child(6) {
+nav > #menu-items > a:nth-child(6) {
   display: none;
 }
-nav > .menu-items > a:nth-child(7) {
+nav > #menu-items > a:nth-child(7) {
   display: none;
 }
 .closecircle {
@@ -2502,6 +2564,39 @@ nav > .menu-items > a:nth-child(7) {
   font-size: 18vw;
   white-space: nowrap;
 }
+.gettextpmap {
+  position: relative;
+  width: 40vw;
+  top: -131vw;
+  left: 17vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 5vw;
+  white-space: nowrap;
+}
+.gettextpmaps {
+  position: relative;
+  width: 40vw;
+  top: -131vw;
+  left: 17vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 5vw;
+  white-space: nowrap;
+}
+.gettextpmapsf {
+  position: relative;
+  width: 40vw;
+  top: -131vw;
+  left: 17vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 5vw;
+  white-space: nowrap;
+}
 .gettext {
   position: relative;
   top: -3100vw;
@@ -2566,6 +2661,20 @@ nav > .menu-items > a:nth-child(7) {
   cursor: pointer;
   z-index: 1;
 }
+.imyapp {
+  position: relative;
+  top: -142vw;
+  left: -23vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
 .namemep {
   position: relative;
   border-radius: 30vw;;
@@ -2579,6 +2688,20 @@ nav > .menu-items > a:nth-child(7) {
   color: #000000;
   top: -8979vw;
   left: 71.5vw;
+}
+.namemepp {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 1vw 4vw;
+  border: 0.5vw solid #000000;
+  width: 48vw;
+  height: 8vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 4vw;
+  color: #000000;
+  top: -139vw;
+  left: 16.5vw;
 }
 .nameme {
   position: relative;
@@ -2622,6 +2745,20 @@ nav > .menu-items > a:nth-child(7) {
   top: -8947vw;
   left: 71.5vw;
 }
+.phonemepp {
+  position: relative;
+  border-radius: 30vw;;
+  padding: 1vw 4vw;
+  border: 0.5vw solid #000000;
+  width: 48vw;
+  height: 8vw;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 4vw;
+  color: #000000;
+  top: -131vw;
+  left: 16.5vw;
+}
 .telephp {
   position: relative;
   top: -8959vw;
@@ -2630,6 +2767,20 @@ nav > .menu-items > a:nth-child(7) {
   font-family: "Suisse Int'l";
   font-weight: bold;
   font-size: 15vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.telephpp {
+  position: relative;
+  top: -134vw;
+  left: -20vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 4vw;
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
@@ -2675,6 +2826,15 @@ nav > .menu-items > a:nth-child(7) {
   font-weight: normal;
   font-size: 11.5vw;
   white-space: nowrap;
+}
+[for="rulepp"] {
+  position: relative;
+  top: -109vw;
+  left: 16vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 3.2vw;
 }
 .boxtext {
   position: relative;
@@ -2730,7 +2890,7 @@ nav > .menu-items > a:nth-child(7) {
   0% {margin-left: 1%;}
   100% {margin-left: 100%;}
 }
-.slogan {
+#slogan {
   position: relative;
   top: -546vw;
   left: 20vw;
