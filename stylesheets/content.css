@@ -1447,7 +1447,7 @@ nav > #menu-items > a:nth-child(1) {
 .container {
   width: 30vw;
 }
-.wantme {
+#wantme {
   position: relative;
   top: 314.5vw;
   left: 14.5vw;
