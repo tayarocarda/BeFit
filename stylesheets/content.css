@@ -1409,6 +1409,17 @@ nav > #menu-items > a:nth-child(1) {
   top: 325vw;
   left: 14.5vw;
 }
+[for="rulejok"]{
+  position: relative;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 1.25vw;
+  color: #000000;
+  width: 30vw;
+  display: block;
+  top: 325vw;
+  left: 14.5vw;
+}
 [for="rulep"]{
   position: relative;
   font-family: "Suisse Int'l";

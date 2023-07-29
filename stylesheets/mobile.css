@@ -382,8 +382,8 @@ nav > #menu-items2 > a {
 }
 #contacts {
   scroll-behavior: smooth;
-  position: relative;
-  top: 941vw;
+  position: absolute;
+  top: 9592vw;
   left: 47vw;
   line-height: 6vw;
   width: 15.5vw;
@@ -595,8 +595,8 @@ nav > #menu-items2 > a {
 }
 .wantmef {
   position: relative;
-  top: -411vw;
-  left: 56vw;
+  top: -384vw;
+  left: 53vw;
   width: 169vw;
   height: 40vw;
   border-radius: 40vw;
@@ -634,7 +634,7 @@ nav > #menu-items2 > a {
 }
 #wantme {
   position: relative;
-  top: -3084vw;
+  top: -3077vw;
   left: 71vw;
   width: 169vw;
   height: 40vw;
@@ -927,8 +927,8 @@ nav > #menu-items2 > a {
 }
 .hochu {
   position: absolute;
-  top: 241vw;
-  left: 121vw;
+  top: 249vw;
+  left: 118vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;
@@ -1131,9 +1131,15 @@ a {
   white-space: nowrap;
 }
 [for="rulec"] {
+  display: none;
+}
+[for="Хочу"] {
+  color: #000000;
+}
+[for="rule"] {
   position: relative;
-  top: -302vw;
-  left: 56vw;
+  top: -2983vw;
+  left: 72vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: normal;
@@ -1141,11 +1147,16 @@ a {
   text-decoration: none;
   white-space: nowrap;
 }
-[for="Хочу"] {
+[for="rulejok"] {
+  position: relative;
+  top: -294vw;
+  left: 56vw;
   color: #000000;
-}
-[for="rule"] {
-  display: none;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 11.5vw;
+  text-decoration: none;
+  white-space: nowrap;
 }
 .imyay {
   position: relative;
