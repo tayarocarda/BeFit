@@ -4,15 +4,29 @@ $(document).ready(function() {
  });
  $(".buttontab").click(function() {
    $(".nini").removeClass("none");
+   $(".nini2").removeClass("none");
+   $(".nini3").removeClass("none");
+   $(".nini4").removeClass("none");
+   $(".nini5").removeClass("none");
+   $(".nini6").removeClass("none");
+   $(".nini7").removeClass("none");
+   $(".nini8").removeClass("none");
 });
 $(".menu").click(function() {
   $(".nunu").removeClass("none");
 });
-$(".closeme").click(function() {
-  $(".nunu").addClass("none");
-});
 $(".hikhik").click(function() {
   $(".nini").addClass("none");
+  $(".nini2").addClass("none");
+  $(".nini3").addClass("none");
+  $(".nini4").addClass("none");
+  $(".nini5").addClass("none");
+  $(".nini6").addClass("none");
+  $(".nini7").addClass("none");
+  $(".nini8").removeClass("none");
+});
+$(".closeme").click(function() {
+  $(".nunu").addClass("none");
 });
  $(".closeme").click(function() {
    $(".fillme2").addClass("none");

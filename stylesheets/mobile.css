@@ -700,6 +700,41 @@ nav > #menu-items2 > a {
   top: -12vw;
   height: 10vw;
 }
+.nini2 {
+  position: relative;
+  top: 13vw;
+  height: 10vw;
+}
+.nini3 {
+  position: relative;
+  top: -26vw;
+  height: 10vw;
+}
+.nini4 {
+  position: relative;
+  top: 5vw;
+  height: 10vw;
+}
+.nini5 {
+  position: relative;
+  top: 11vw;
+  height: 10vw;
+}
+.nini6 {
+  position: relative;
+  top: -8vw;
+  height: 10vw;
+}
+.nini7 {
+  position: relative;
+  top: 24vw;
+  height: 10vw;
+}
+.nini8 {
+  position: relative;
+  top: -32vw;
+  height: 10vw;
+}
 .crosser {
   position: relative;
   top: -3221vw;
@@ -927,7 +962,7 @@ nav > #menu-items2 > a {
 }
 .hochu {
   position: absolute;
-  top: 249vw;
+  top: 252vw;
   left: 118vw;
   color: #000000;
   font-family: "Suisse Int'l";
