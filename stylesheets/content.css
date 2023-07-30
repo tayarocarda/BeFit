@@ -1069,6 +1069,16 @@ nav > #menu-items > a:nth-child(1) {
   border-radius: 3vw;
   border: 0.2vw solid black;
 }
+.podlogkaptf {
+  position: absolute;
+  top: 53.5vw;
+  left: 30vw;
+  width: 40vw;
+  height: 47vw;
+  background: #fff;
+  border-radius: 3vw;
+  border: 0.2vw solid black;
+}
 .crying {
   position: absolute;
   top: 45vw;
@@ -1237,6 +1247,16 @@ nav > #menu-items > a:nth-child(1) {
   top: 259vw;
   left: 14.5vw;
 }
+.imyappstretch {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+  top: 259vw;
+  left: 14.5vw;
+}
 .consult {
   position: relative;
   color: #000000;
@@ -1278,6 +1298,15 @@ nav > #menu-items > a:nth-child(1) {
   left: 14.5vw;
 }
 .telephpp {
+  position: relative;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: normal;
+  font-size: 2vw;
+  top: 265.5vw;
+  left: 14.5vw;
+}
+.telephppstretch {
   position: relative;
   color: #000000;
   font-family: "Suisse Int'l";

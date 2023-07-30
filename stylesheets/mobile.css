@@ -731,8 +731,13 @@ nav > #menu-items2 > a {
   height: 10vw;
 }
 .nini8 {
-  position: relative;
-  top: -32vw;
+  position: absolute;
+  top: 156vw;
+  height: 10vw;
+}
+.nini9 {
+  position: absolute;
+  top: 156vw;
   height: 10vw;
 }
 .crosser {
@@ -2721,6 +2726,20 @@ nav > #menu-items > a:nth-child(7) {
   cursor: pointer;
   z-index: 1;
 }
+.imyappstretch {
+  position: relative;
+  top: -142vw;
+  left: -14vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
 .namemep {
   position: relative;
   border-radius: 30vw;;
@@ -2823,6 +2842,20 @@ nav > #menu-items > a:nth-child(7) {
   position: relative;
   top: -134vw;
   left: -20vw;
+  color: #000000;
+  font-family: "Suisse Int'l";
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.telephppstretch {
+  position: relative;
+  top: -134vw;
+  left: -11vw;
   color: #000000;
   font-family: "Suisse Int'l";
   font-weight: bold;

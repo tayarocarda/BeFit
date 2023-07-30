@@ -11,6 +11,9 @@ $(document).ready(function() {
    $(".nini6").removeClass("none");
    $(".nini7").removeClass("none");
    $(".nini8").removeClass("none");
+   $(".nini9").removeClass("none");
+   $(".napr2stretch").addClass("none");
+   $(".napr2zum").addClass("none");
 });
 $(".menu").click(function() {
   $(".nunu").removeClass("none");
@@ -23,7 +26,10 @@ $(".hikhik").click(function() {
   $(".nini5").addClass("none");
   $(".nini6").addClass("none");
   $(".nini7").addClass("none");
-  $(".nini8").removeClass("none");
+  $(".nini8").addClass("none");
+  $(".nini9").addClass("none");
+  $(".napr2stretch").removeClass("none");
+  $(".napr2zum").removeClass("none");
 });
 $(".closeme").click(function() {
   $(".nunu").addClass("none");
